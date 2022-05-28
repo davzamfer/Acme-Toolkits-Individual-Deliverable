@@ -1,0 +1,3 @@
+key,code,title,description,link,budget,start-date,finish-date,creation-moment
+CHIMPUM-01,PATTERN,Chimpun1,A complete chimpum,https://www.tool.com,"EUR 250.00","2021/12/31 12:00","2022/12/31 15:00","2021/12/01 12:00"
+CHIMPUM-02,PATTERN,Chimpun2,a chimpum,null,"EUR 50.00","2020/12/31 15:36","2021/12/30 22:47","2021/12/01 12:00"

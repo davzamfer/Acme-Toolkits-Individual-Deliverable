@@ -33,10 +33,7 @@ public class InventorCHIMPUMListService implements AbstractListService<Inventor,
 	public Collection<CHIMPUM> findMany(final Request<CHIMPUM> request) {
 		assert request != null;
 
-		int masterId;
-		masterId = request.getModel().getInteger("artifactId");
-		
-		return this.repository.findCHIMPUMSByArtifactId(masterId);
+		return this.repository.findAllCHIMPUMS();
 	}
 
 	@Override
@@ -45,9 +42,7 @@ public class InventorCHIMPUMListService implements AbstractListService<Inventor,
 		assert entity != null;
 		assert model != null;
 		
-		//int artifactId = request.getModel().getInteger("artifactId");
 		request.unbind(entity, model, "title", "description");
-		//model.setAttribute("artifactId", artifactId);
 	}
 
 }

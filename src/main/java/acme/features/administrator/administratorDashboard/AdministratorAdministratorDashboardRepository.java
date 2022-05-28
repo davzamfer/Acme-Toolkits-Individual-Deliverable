@@ -61,6 +61,24 @@ public interface AdministratorAdministratorDashboardRepository extends AbstractR
 	@Query("select p.status, max(p.budget.amount) from Patronage p group by p.status")
 	List<String> maximumBudgetOfPatronagesGroupedByStatus();
 	
+	// Methods for CHIMPUM ---------------------------------------------
+
+	@Query("select count(a) from Artifact a where a.chimpum != null")
+	int ratioOfArtefactWithCHIMPUM();
+
+	@Query("select c.budget.currency, avg(c.budget.amount) from CHIMPUM c group by c.budget.currency")
+	List<String> averageBudgetCHIMPUMGroupedByCurrency();
+
+	@Query("select c.budget.currency, stddev(c.budget.amount) from CHIMPUM c group by c.budget.currency")
+	List<String> deviationBudgetCHIMPUMGroupedByCurrency();
+
+	@Query("select c.budget.currency, min(c.budget.amount) from CHIMPUM c group by c.budget.currency")
+	List<String> minimumBudgetCHIMPUMGroupedByCurrency();
+
+	@Query("select c.budget.currency, max(c.budget.amount) from CHIMPUM c group by c.budget.currency")
+	List<String> maximumBudgetCHIMPUMGroupedByCurrency();
+	
+	
 	// Others -------------------------------
 	
 	@Query("select cd.acceptedCurrencies from ConfigData cd")

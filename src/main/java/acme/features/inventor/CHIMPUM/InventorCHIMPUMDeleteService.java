@@ -1,9 +1,12 @@
 package acme.features.inventor.CHIMPUM;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import acme.entities.CHIMPUM.CHIMPUM;
+import acme.entities.artifacts.Artifact;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Errors;
 import acme.framework.controllers.Request;
@@ -72,6 +75,14 @@ public class InventorCHIMPUMDeleteService implements AbstractDeleteService<Inven
 		assert request != null;
 		assert entity != null;
 		
+		final List<Artifact> artifacts = this.repository.findAllArtifactsByCHIMPUMId(entity.getId());
+		if(!artifacts.isEmpty()) {
+			for(final Artifact a:artifacts) {
+				a.setChimpum(null);
+				this.repository.save(a);
+			}
+		}
+
 		this.repository.delete(entity);
 		
 	}
