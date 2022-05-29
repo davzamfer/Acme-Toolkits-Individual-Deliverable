@@ -1,0 +1,21 @@
+1653841521875	geckodriver	INFO	Listening on 127.0.0.1:36939
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\david\\AppData\\Local\\Temp\\rust_mozprofileXv66wf\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8081"
+console.warn: LoginRecipes: "getRecipes: fallingJ abvaacSkc to ar siyptn cehrrorro:n oruess omuerscsaeg:e/ /fgorre:/"m o"dhutlteps://L/olgoicnaMlahnoasgte:r8P0a8r1e"
+nt.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipesJavaScript error: resource://gre/mo:d u"les/LoggienManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+tRecipes: falling back to a synchronous message for:" "http://localhost:8081"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8081"
+console.warn: LoginRecipes: "getRecipes: faJllinga vback toa Sac synchrroinpous message for:" "httt perror: reso:urc/e://gre/modules//lLoocgailnhMoasnta:g8e0r8P1a"r
+ent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a sJyanvcahSrcornioputs  emrersosrag:e  rfeosro:u"r c"eh:t/t/pgre/:m/o/dluolceasl/hLoosgti:n8M0a8n1a"ge
+rParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipJaveas: falling back Stcor a synchronous message for:" "http://lociaplth oesrtr:o8r0:81"
+ resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous mJavaScreispstag ee rfroorr::"  r"ehstotuprc:e/://l/ogcrael/hmoosdtu:l8e0s8/1L"og
+inManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: fallingJ baavcakS ctroi pat  seyrnrcohrr:o nroeusso umrecssagee: f/o/rg:r"e /"mhodutlteps://L/olgocalhionsMtan:a8g0e8r1P"arent.jsm
+, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to aJ asvyanScchrriopnto uesr rmoers:s argees ofuorrc:e": /"/hgtrtep/:m/o/dluolceasl/hLoosginMtanagerParent.jsm, line 136: TypeError: gRecipeManager is null
+:8081"

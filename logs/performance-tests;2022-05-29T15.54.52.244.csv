@@ -1,0 +1,5 @@
+timestamp,test-class,test-method,time,description,result
+"2022-05-29 15:53:44.076","acme.testing.inventor.toolkit.InventorToolkitListTest","positive",15762,""[1] recordIndex=0, title=Awesome Tool Kit, code=XDD-191-A, description=a, assemblyNotes=assembly with caution, link=null, price=true"","OK"
+"2022-05-29 15:53:55.007","acme.testing.inventor.toolkit.InventorToolkitListTest","positive",10105,""[2] recordIndex=1, title=Tech Tool Kit, code=LOL-909-B, description=A complete tech tool kit, assemblyNotes=nothing important, link=https://www.tool.com, price=false"","OK"
+"2022-05-29 15:54:05.826","acme.testing.inventor.toolkit.InventorToolkitListTest","negative",10212,""[1] recordIndex=0, title=Awesome Tool Kit, code=XDD-191-A, description=a, assemblyNotes=assembly with caution, link=null, price=true"","OK"
+"2022-05-29 15:54:14.628","acme.testing.inventor.toolkit.InventorToolkitListTest","negative",8024,""[2] recordIndex=1, title=Tech Tool Kit, code=LOL-909-B, description=A complete tech tool kit, assemblyNotes=nothing important, link=https://www.tool.com, price=false"","OK"

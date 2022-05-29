@@ -23,4 +23,15 @@ public interface InventorCHIMPUMRepository extends AbstractRepository{
 	@Query("SELECT a FROM Artifact a WHERE a.chimpum.id = :id")
 	List<Artifact> findAllArtifactsByCHIMPUMId(int id);
 
+	@Query("select config.strongSpamTerms from ConfigData config")
+	String findStrongSpamTerms();
+	
+	@Query("select config.weakSpamTerms from ConfigData config")
+	String findWeakSpamTerms();
+	
+	@Query("select config.strongSpamTreshold from ConfigData config")
+	int findStrongSpamTreshold();
+	
+	@Query("select config.weakSpamTreshold from ConfigData config")
+	int findWeakSpamTreshold();
 }

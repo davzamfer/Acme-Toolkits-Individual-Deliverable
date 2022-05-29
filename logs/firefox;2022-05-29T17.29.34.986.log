@@ -1,0 +1,20 @@
+1653837435584	geckodriver	INFO	Listening on 127.0.0.1:2350
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\david\\AppData\\Local\\Temp\\rust_mozprofileNEw6bR\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8081"
+console.warn: LoginRecipes: "getRecipes: fallJinagv abSacript ecrkr otr: reoso urce://grea/ msodyules/LoginManagnecrhPraorneonuts. jmsems,s algien ef o1r3:6":  "ThytpeEtrpr:o/r/:l ogcRaelchiopsetM:a8n0a8g1er is null
+"
+console.waJranv:a SLcorgiipntRec ieprerso:r :" greetsRoeucricpee:s/:/ gfrael/lmiondgu lbeasc/kL otgoi naM asnyangcehrrPoanroent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+us message for:" "http://localhost:8081"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8081"
+console.warn: LoginRecipes: "getRecipes: falling bJaavcak to a sSycnrcihprto neoruror: resso umrecses:a/g/eg rfeo/rm:o"d ul"ehst/tLpo:g/i/nlMaocalhost:8081"
+nagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipesJ:a vfaaSlclriinpgt  bearcrko rt:o  rae ssoyunrcce:h/r/gorneo/us mmoedsulessa/gLeo gfionrM:a" n"httapg:e//lroPcaarlehnots.tj:s8m0,8 1line 136: TypeError: gRecipeManager is null
+"
+console.warn: LoginRecipes: "getRecipeJavaSsc:r ifpatl leirnrgo rb:a crke stoou rac es:y/n/cghrreo/monduleosu/sL omgeisnsMaagnea gfeorrP:a"r e"nhtt.tjps:m/,/ lloicnael h1o3s6t:: 8T0y8p1e"Er
+ror: gRecipeManager is null
+console.warn: LoginRecipes: "getJaRvaScerciippte se:r rfoarl:l irnegs obuarccke :t/o/gr ea /smyodulnecsh/rLoongoiunsM amneasgseargPea refonrt.jsm,: "l in"ehttp:// l1o3c6a:l hToyspte:8081E"rr
+or: gRecipeManager is null
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+

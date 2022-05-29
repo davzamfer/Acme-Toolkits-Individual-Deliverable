@@ -11,6 +11,7 @@ import acme.framework.controllers.Errors;
 import acme.framework.controllers.Request;
 import acme.framework.services.AbstractCreateService;
 import acme.roles.Inventor;
+import features.SpamDetector;
 
 @Service
 public class InventorCHIMPUMCreateService implements AbstractCreateService<Inventor, CHIMPUM>{
@@ -68,6 +69,30 @@ public class InventorCHIMPUMCreateService implements AbstractCreateService<Inven
 		assert entity != null;
 		assert errors != null;
 		
+		SpamDetector spamDetector;
+		String strongSpamTerms;
+		String weakSpamTerms;
+		int strongSpamThreshold;
+		int weakSpamThreshold;
+		
+		spamDetector = new SpamDetector();
+		strongSpamTerms = this.repository.findStrongSpamTerms();
+		weakSpamTerms = this.repository.findWeakSpamTerms();
+		strongSpamThreshold = this.repository.findStrongSpamTreshold();
+		weakSpamThreshold = this.repository.findWeakSpamTreshold();
+		
+		if(!errors.hasErrors("title")) {
+			errors.state(request, !spamDetector.containsSpam(weakSpamTerms.split(","), weakSpamThreshold, entity.getTitle())
+				&& !spamDetector.containsSpam(strongSpamTerms.split(","), strongSpamThreshold, entity.getTitle()),
+				"title", "inventor.toolkit.form.error.spam");
+		}
+		
+		if(!errors.hasErrors("description")) {
+			errors.state(request, !spamDetector.containsSpam(weakSpamTerms.split(","), weakSpamThreshold, entity.getDescription())
+				&& !spamDetector.containsSpam(strongSpamTerms.split(","), strongSpamThreshold, entity.getDescription()),
+				"description", "inventor.toolkit.form.error.spam");
+		}
+
 	}
 
 	@Override

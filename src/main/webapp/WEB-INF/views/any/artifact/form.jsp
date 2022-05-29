@@ -11,5 +11,4 @@
 	<acme:input-money code="any.artifact.form.label.retailprice" path="retailPrice"/>
 	<acme:input-textbox code="any.artifact.form.label.type" path="artifactType"/>
 	<acme:input-textbox code="any.artifact.form.label.link" path="link"/>
-
 </acme:form>

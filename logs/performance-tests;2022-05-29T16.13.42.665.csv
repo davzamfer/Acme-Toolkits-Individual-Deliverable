@@ -1,0 +1,4 @@
+timestamp,test-class,test-method,time,description,result
+"2022-05-29 16:12:31.306","acme.testing.inventor.toolkit.InventorToolkitCreateTest","positive",27499,""[1] recordIndex=0, title=Test Tool Kit, code=TES-001-K, description=description test, assemblyNotes=assembly test, link=null, price=false"","OK"
+"2022-05-29 16:12:44.251","acme.testing.inventor.toolkit.InventorToolkitCreateTest","negative",12030,""[1] recordIndex=0, title=Test Tool Kit, code=TES-001-, description=description test, assemblyNotes=assembly test, link=null, price=false"","OK"
+"2022-05-29 16:12:55.618","acme.testing.inventor.toolkit.InventorToolkitCreateTest","negative",10701,""[2] recordIndex=1, title=null, code=TES-001-T, description=description test, assemblyNotes=assembly test, link=null, price=false"","OK"

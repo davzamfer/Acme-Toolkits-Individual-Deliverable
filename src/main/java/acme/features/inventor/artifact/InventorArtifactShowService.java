@@ -61,8 +61,11 @@ public class InventorArtifactShowService implements AbstractShowService<Inventor
 		assert model != null;
 		
 		Collection<CHIMPUM> chimpums;
+		String artifactType;
 		
 		chimpums = this.repository.findAllCHIMPUMS();
+		artifactType = entity.getArtifactType().toString().toUpperCase();
+		
 		request.unbind(entity, model, "name", "code", "technology", "description", "retailPrice", "artifactType", "link");
 		List<String> types;
 		types = new ArrayList<String>();
@@ -78,6 +81,7 @@ public class InventorArtifactShowService implements AbstractShowService<Inventor
 			model.setAttribute("CHIMPUMId", null);
 		}
 		model.setAttribute("chimpums", chimpums);
+		model.setAttribute("type", artifactType);
 	}
 	
 }

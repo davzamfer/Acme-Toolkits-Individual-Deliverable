@@ -50,15 +50,18 @@ public class InventorArtifactUpdateService implements AbstractUpdateService<Inve
 		final String chimpumIdString;
 		final int chimpumId;
 		
-		chimpumIdString = (String) request.getModel().getAttribute("CHIMPUM");
-		if(!"none".equals(chimpumIdString)) {
-			chimpumId = Integer.parseInt(chimpumIdString);
-			chimpum = this.repository.findCHIMPUMById(chimpumId);
-			entity.setChimpum(chimpum);
+		if(request.getModel().hasAttribute("CHIMPUM")) {
+			chimpumIdString = (String) request.getModel().getAttribute("CHIMPUM");
+			if(!"none".equals(chimpumIdString)) {
+				chimpumId = Integer.parseInt(chimpumIdString);
+				chimpum = this.repository.findCHIMPUMById(chimpumId);
+				entity.setChimpum(chimpum);
+			}
+			else {
+				entity.setChimpum(null);
+			}
 		}
-		else {
-			entity.setChimpum(null);
-		}
+
 		
 		request.bind(entity, errors, "name", "code", "technology" , "description" , "retailPrice", "artifactType", "link");
 		

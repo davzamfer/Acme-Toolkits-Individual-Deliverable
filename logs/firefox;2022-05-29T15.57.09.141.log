@@ -1,0 +1,13 @@
+1653832483711	geckodriver	INFO	Listening on 127.0.0.1:45004
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\david\\AppData\\Local\\Temp\\rust_mozprofileOq23BX\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8081"
+console.warn: LoginRecipes: "getRecipes: fallingJavaScript error: resource://gre/modul ebsa/cLko gtion MaanagerPare nsty.njcshmr,o nloiunse  m1e3s6s:a gTey pfeoErr:r"o r":h tgtRpe:c/i/pleoMcaanlahgoesrt :i8081"s nu
+ll
+console.warn: JLaovgaiSncRreicpitp eesr:r o"rg:e trReescoiuprecse:: /f/aglrlei/nmgo dbualceks /tLoo gai nsMyanncahgreornPoaurent.jsm, line 136: Tys mepeEsrsagero for:" "http://localhost:8081"
+r: gcRoencsiopleeM.awnaargne:r  LioginRsecipes: "getRecipes: falling back to a synchronous message for:" "h ntutlpl:/
+/JavalSocalhocsrti:p8t0 8e1r"ro
+r: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchJraovnaoSucsr impets seargreo rf:o rresource://g:"r e"/htmtopdules/LoginManagerParent.jsm, :l/i/nleo c1a3l6h:o sTty:p8e0E8r1r"
+or: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: faJavlalSicnrgi pbta cekr rtoor :a  rseysnocuhrrcoen:ous mes/s/aggree /for:"m o"dhutlteps://lo/cLaolhostg:i8nMan0a8g1e"rPar
+ent.jsm, line 136: TypeError: gRecipeManager is null

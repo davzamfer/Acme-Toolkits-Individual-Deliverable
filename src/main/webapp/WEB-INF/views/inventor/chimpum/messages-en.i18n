@@ -1,1 +1,19 @@
+inventor.CHIMPUM.message.CHIMPUM = CHIMPUM
 
+inventor.CHIMPUM.form.label.code = Code
+inventor.CHIMPUM.form.label.title = Title
+inventor.CHIMPUM.form.label.description = Description
+inventor.CHIMPUM.form.label.startDate = Start Date
+inventor.CHIMPUM.form.label.finishDate = Finish Date
+inventor.CHIMPUM.form.label.budget = Budget
+inventor.CHIMPUM.form.label.info = Link
+inventor.CHIMPUM.form.label.creationMoment = Creation Moment
+
+inventor.CHIMPUM.form.button.artifacts = See Artifacts
+inventor.CHIMPUM.form.button.update = Update
+inventor.CHIMPUM.form.button.delete = Delete
+inventor.CHIMPUM.form.button.create = Create
+
+inventor.CHIMPUM.list.label.title = Title
+inventor.CHIMPUM.list.label.description = Description
+inventor.CHIMPUM.list.button.create = Create

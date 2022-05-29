@@ -44,11 +44,13 @@ public class InventorArtifactCreateService implements AbstractCreateService<Inve
 		final String chimpumIdString;
 		final int chimpumId;
 		
-		chimpumIdString = (String) request.getModel().getAttribute("CHIMPUM");
-		if(!"none".equals(chimpumIdString)) {
-			chimpumId = Integer.parseInt(chimpumIdString);
-			chimpum = this.repository.findCHIMPUMById(chimpumId);
-			entity.setChimpum(chimpum);
+		if(request.getModel().hasAttribute("CHIMPUM")) {
+			chimpumIdString = (String) request.getModel().getAttribute("CHIMPUM");
+			if(!"none".equals(chimpumIdString)) {
+				chimpumId = Integer.parseInt(chimpumIdString);
+				chimpum = this.repository.findCHIMPUMById(chimpumId);
+				entity.setChimpum(chimpum);
+			}
 		}
 		
 		String type;

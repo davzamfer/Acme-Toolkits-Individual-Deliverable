@@ -32,15 +32,27 @@ public class AnyArtifactListPublishedService implements AbstractListService<Any,
 	public Collection<Artifact> findMany(final Request<Artifact> request) {
 		assert request != null;
 		
-		Collection<Artifact> result;
+		Collection<Artifact> result;		
 		final String type=request.getModel().getString("type");
-		if(type.equals("component")) {
-			result = this.repository.findAllComponentsPublished();
-			return result;
-		}else {
-			result = this.repository.findAllToolsPublished();
-			return result;
+		
+		if(request.getModel().hasAttribute("chimpumId")) {
+			final Integer chimpumId = request.getModel().getInteger("chimpumId");
+			if(type.equals("component")) {
+				result = this.repository.findAllComponentsPublishedByCHIMPUMId(chimpumId);
+				
+			}else {
+				result = this.repository.findAllToolsPublishedByCHIMPUMId(chimpumId);
+			}
 		}
+		
+		else {
+			if(type.equals("component")) {
+					result = this.repository.findAllComponentsPublished();
+			}else {
+					result = this.repository.findAllToolsPublished();					
+			}
+		}
+		return result;
 	}
 	
 	@Override

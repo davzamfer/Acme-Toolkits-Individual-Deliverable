@@ -1,0 +1,2 @@
+timestamp,test-class,test-method,time,description,result
+"2022-05-29 15:29:27.557","acme.testing.any.chirp.AnyChirpListTest","positive",4509,""[1] recordIndex=0, title=Amazing Chirp, author=Don Mclean, moment=2022/04/23 18:33, body=What an amazing Chirp!, email=amazingChirp@mail.com"","Expected value '2022/04/23 18:33' in attribute 2 of record 0, but found '2022/05/28 15:29'"

@@ -11,6 +11,7 @@ inventor.artifact.form.label.technology = Technology
 inventor.artifact.form.label.description = Description
 inventor.artifact.form.label.retailprice = Price
 inventor.artifact.form.label.link = Link
+inventor.artifact.form.label.select.CHIMPUM = CHIMPUM
 
 
 inventor.artifact.list.label.inventor = Inventor
