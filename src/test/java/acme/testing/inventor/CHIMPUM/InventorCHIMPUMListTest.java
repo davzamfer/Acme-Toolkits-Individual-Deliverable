@@ -30,7 +30,7 @@ public class InventorCHIMPUMListTest extends TestHarness {
 	}
 	
 	@ParameterizedTest
-	@CsvFileSource(resources = "/inventor/toolkit/list-chimpum.csv", encoding = "utf-8", numLinesToSkip = 1)
+	@CsvFileSource(resources = "/inventor/chimpum/list-chimpum.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(20)
 	public void negative(final int recordIndex, final String title, final String description) {
 	super.signIn("patron2", "patron2");

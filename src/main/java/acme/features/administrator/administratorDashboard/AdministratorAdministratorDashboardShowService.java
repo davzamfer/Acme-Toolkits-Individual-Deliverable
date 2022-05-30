@@ -58,7 +58,7 @@ public class AdministratorAdministratorDashboardShowService implements AbstractS
 		final Map<Status,Double>	minimumBudgetOfPatronagesGroupedByStatus;
 		final Map<Status,Double>	maximumBudgetOfPatronagesGroupedByStatus;
 		
-		int ratioOfArtefactWithCHIMPUM;
+		float ratioOfArtefactWithCHIMPUM;
 		Map<String, Double> averageBudgetCHIMPUMGroupedByCurrency;
 		Map<String, Double> deviationBudgetCHIMPUMGroupedByCurrency;
 		Map<String, Double> minimumBudgetCHIMPUMGroupedByCurrency;
@@ -105,7 +105,14 @@ public class AdministratorAdministratorDashboardShowService implements AbstractS
 		
 		//CHIMPUM methods
 
-		ratioOfArtefactWithCHIMPUM = this.repository.ratioOfArtefactWithCHIMPUM();
+		final int numberOfArtifacts= this.repository.numberOfArtefacts();
+		if(numberOfArtifacts!=0) {
+			ratioOfArtefactWithCHIMPUM = (float) this.repository.numberOfArtefactWithCHIMPUM()/numberOfArtifacts;
+		}
+		else {
+
+			ratioOfArtefactWithCHIMPUM = 0;
+		}
 		averageBudgetCHIMPUMGroupedByCurrency = this.toolsMethodsMap(
 			this.repository.averageBudgetCHIMPUMGroupedByCurrency());
 		deviationBudgetCHIMPUMGroupedByCurrency = this.toolsMethodsMap(

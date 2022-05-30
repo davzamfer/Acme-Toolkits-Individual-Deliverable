@@ -25,7 +25,6 @@ public class InventorCHIMPUMUpdateTest extends TestHarness {
 
 		super.clickOnListingRecord(0);	
 		
-		super.fillInputBoxIn("code", code);
 		super.fillInputBoxIn("title", title);
 		super.fillInputBoxIn("description", description);
 		super.fillInputBoxIn("startDate", startDate);
@@ -42,7 +41,6 @@ public class InventorCHIMPUMUpdateTest extends TestHarness {
 		
 		super.clickOnListingRecord(0);
 		super.checkFormExists();
-		super.checkInputBoxHasValue("code", code);
 		super.checkInputBoxHasValue("title", title);
 		super.checkInputBoxHasValue("description", description);
 		super.checkInputBoxHasValue("startDate", startDate);
@@ -71,7 +69,6 @@ public class InventorCHIMPUMUpdateTest extends TestHarness {
 		
 		super.clickOnListingRecord(0);	
 		
-		super.fillInputBoxIn("code", code);
 		super.fillInputBoxIn("title", title);
 		super.fillInputBoxIn("description", description);
 		super.fillInputBoxIn("startDate", startDate);
