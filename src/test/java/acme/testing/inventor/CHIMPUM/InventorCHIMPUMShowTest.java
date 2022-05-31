@@ -30,7 +30,6 @@ public class InventorCHIMPUMShowTest extends TestHarness {
 
 		super.clickOnListingRecord(recordIndex);		
 		super.checkFormExists();
-		super.checkInputBoxHasValue("code", code);
 		super.checkInputBoxHasValue("title", title);
 		super.checkInputBoxHasValue("description", description);
 		super.checkInputBoxHasValue("startDate", startDate);
@@ -38,6 +37,7 @@ public class InventorCHIMPUMShowTest extends TestHarness {
 		super.checkInputBoxHasValue("budget", budget);
 		super.checkInputBoxHasValue("creationMoment", creationMoment);
 		super.checkInputBoxHasValue("link", link);
+		super.checkInputBoxHasValue("code", code);
 		
 		super.signOut();
 	}

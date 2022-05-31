@@ -1,0 +1,17 @@
+1654018652552	geckodriver	INFO	Listening on 127.0.0.1:2164
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\david\\AppData\\Local\\Temp\\rust_mozprofileppTV1M\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8081"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronousJavaScript error:  messraegseo ufrocre:": /"/htgtrpe:/mod/ules/Log/inlMoacnagerParaent.jsm, line 136: TypeError: gRecipeManager is null
+lhost:8081"
+console.warn: LoginRJeacvipes: "getRecipes: falliangS cbracikp tt oe rar osry:n resourcec:h/r/ognroeu/sm omdeuslseasg/eL ofor:" "http://localhost:8081"
+console.warn: LoginRecipes: "getRecipes: falling back to a syngchronous message for:" "http://localhost:8081"
+inManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: JfaavlalScriinpgt  bearcrko rt: or eas osyunrccher:o/n/ogurse /mesmsoadguel efso/rL:o"g i"nhMatntapg:e/r/Plaorceanlth.ojsstm:,8 0l8i1n"e 
+136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8081"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8081"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8081"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null

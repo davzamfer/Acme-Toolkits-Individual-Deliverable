@@ -15,7 +15,7 @@ public class InventorCHIMPUMCreateTest extends TestHarness {
 	@ParameterizedTest
 	@CsvFileSource(resources = "/inventor/chimpum/create-positive-chimpum.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(10)
-	public void positive(final int recordIndex, final String title, final String description, final String code, 
+	public void positive(final int recordIndex, final String title, final String description, final String pattern, 
 			final String startDate, final String finishDate, final String budget, final String link) {
 		
 		super.signIn("inventor1", "inventor1");
@@ -24,13 +24,13 @@ public class InventorCHIMPUMCreateTest extends TestHarness {
 		super.checkListingExists();
 
 		super.clickOnButton("Create");
-		super.fillInputBoxIn("code", code);
 		super.fillInputBoxIn("title", title);
 		super.fillInputBoxIn("description", description);
 		super.fillInputBoxIn("startDate", startDate);
 		super.fillInputBoxIn("finishDate", finishDate);
 		super.fillInputBoxIn("budget", budget);
 		super.fillInputBoxIn("link", link);
+		super.fillInputBoxIn("pattern", pattern);
 		super.clickOnSubmit("Create");
 		
 		super.clickOnMenu("Inventor", "List of CHIMPUMS");
@@ -41,7 +41,6 @@ public class InventorCHIMPUMCreateTest extends TestHarness {
 		
 		super.clickOnListingRecord(0);
 		super.checkFormExists();
-		super.checkInputBoxHasValue("code", code);
 		super.checkInputBoxHasValue("title", title);
 		super.checkInputBoxHasValue("description", description);
 		super.checkInputBoxHasValue("startDate", startDate);
@@ -61,7 +60,7 @@ public class InventorCHIMPUMCreateTest extends TestHarness {
 	@ParameterizedTest
 	@CsvFileSource(resources = "/inventor/chimpum/create-negative-chimpum.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(20)
-	public void negative(final int recordIndex, final String title, final String description, final String code, 
+	public void negative(final int recordIndex, final String title, final String description, final String pattern, 
 		final String startDate, final String finishDate, final String budget, final String link) {
 		
 		super.signIn("inventor1", "inventor1");
@@ -70,13 +69,13 @@ public class InventorCHIMPUMCreateTest extends TestHarness {
 		super.checkListingExists();
 		
 		super.clickOnButton("Create");
-		super.fillInputBoxIn("code", code);
 		super.fillInputBoxIn("title", title);
 		super.fillInputBoxIn("description", description);
 		super.fillInputBoxIn("startDate", startDate);
 		super.fillInputBoxIn("finishDate", finishDate);
 		super.fillInputBoxIn("budget", budget);
 		super.fillInputBoxIn("link", link);
+		super.fillInputBoxIn("pattern", pattern);
 		super.clickOnSubmit("Create");
 		
 		super.checkErrorsExist();

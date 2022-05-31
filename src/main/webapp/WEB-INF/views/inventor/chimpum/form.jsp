@@ -22,7 +22,7 @@
 			<acme:submit code="inventor.CHIMPUM.form.button.delete" action="/inventor/chimpum/delete"/>
 		</jstl:when>
 		<jstl:when test="${command == 'create'}">		
-			<acme:input-textbox code="inventor.CHIMPUM.form.label.code" path="code"/>
+			<acme:input-textbox code="inventor.CHIMPUM.form.label.code" path="pattern"/>
 			<acme:submit code="inventor.CHIMPUM.form.button.create" action="/inventor/chimpum/create"/>
 		</jstl:when>		
 

@@ -35,7 +35,7 @@ public class InventorCHIMPUMUpdateService implements AbstractUpdateService<Inven
 		assert entity != null;
 		assert errors != null;
 
-		request.bind(entity, errors, "code", "title", "description", "startDate", "finishDate","budget", "link");
+		request.bind(entity, errors, "title", "description", "startDate", "finishDate","budget", "link");
 	}
 
 	@Override
@@ -44,7 +44,8 @@ public class InventorCHIMPUMUpdateService implements AbstractUpdateService<Inven
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "code", "title", "description", "startDate", "finishDate","budget", "link");
+		model.setAttribute("code", entity.getCode());
+		request.unbind(entity, model, "creationMoment", "pattern", "title", "description", "startDate", "finishDate","budget", "link");
 	}
 
 	@Override

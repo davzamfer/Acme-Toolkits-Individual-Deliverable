@@ -1,0 +1,20 @@
+1654020821509	geckodriver	INFO	Listening on 127.0.0.1:43005
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\david\\AppData\\Local\\Temp\\rust_mozprofilelmBJu3\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8081"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous messaJgaev afoSrc:r"i p"th error: resource://gre/modules/LoginMatntap://localhost:8081"
+gerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipesJ:a vfaaSlclriinpgt  bearcrko rt:o  rae ssoyunrccher:o/n/ogurse /mmeosdsualgees /fLoorg:i"nManager P"ahrtetnpt:./j/slmo,c allihnoes t1:3860:8 1T"yp
+eError: gRecipeManager is null
+console.warn: LoginRecipes: "getJavaRSeccriippets :e rfraolr: resource:l/ing/ gbarcek/mo dtuol eas /sLyongcihnrMoanounsa gmeessraPgaer efnotr.:j"s m",h tltipn:e/ /1l3o6c:a lThyopsetE:r8r0o8r1:" g
+RecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling bacJakv atSoc rai psty necrhrroorn:o uress omuerscsea:g/e/ gfroer/module:s"/ L"ohgtitnpM:a/n/algoecraPlahroesntt:.8j0s8m1," l
+ine 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipeJsa: "getvRaeScriptc ieprerso: fallirn:g  rbeasourccke://g rteo/ modau lseys/LogninManagerParent.jsm, line 136: TcyhpreError:o ngous RmeecipeMsanager sis nullag
+e for:" "http://localhost:8081"
+console.warn: LoginRecipes: "getRecipes: fallingJav abSaccrki ptto  ear rsoyrn:c hrreosnoouursc em:e/s/sgargee/ mfoodru:l"e s"/hLtotgpi:n/M/alnoacgaelrhPoasrte:n8t0.8j1s"m,
+ line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipJeasv:a Sfcarlilpitn ge rbraocrk:  troe a synchrsonous omuerscseage for:" "http://localhost:80:8/1"/
+gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+

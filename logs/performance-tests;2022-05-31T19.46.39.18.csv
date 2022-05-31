@@ -1,0 +1,4 @@
+timestamp,test-class,test-method,time,description,result
+"2022-05-31 19:41:53.878","acme.testing.inventor.CHIMPUM.InventorCHIMPUMListTest","positive",9268,""[1] recordIndex=0, title=Chimpun1, description=A complete chimpum"","Cannot find 'By.xpath: //select[@name='list_length']/option[@value='5']'"
+"2022-05-31 19:42:02.079","acme.testing.inventor.CHIMPUM.InventorCHIMPUMListTest","negative",7538,""[1] recordIndex=0, title=Chimpun1, description=A complete chimpum"","OK"
+"2022-05-31 19:42:08.914","acme.testing.inventor.CHIMPUM.InventorCHIMPUMListTest","negative",6261,""[2] recordIndex=1, title=Chimpun2, description=a chimpum"","OK"

@@ -1,0 +1,20 @@
+1654019278353	geckodriver	INFO	Listening on 127.0.0.1:20292
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\david\\AppData\\Local\\Temp\\rust_mozprofilewScZHN\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8081"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message fJoarv:a"S c"rhitptt error: resource://gre/mp://localhosotdule:s8/0L8o1g"in
+ManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+consolJavaScript error: er.ewarn: LoginRecipes: "getRecipes: falling back to a synchsronous message for:" "http://localhost:8081"
+ource://gconsole.warn: rLe/moduleso/gLiongRiencMiapnagerParent.jsm, line 13es:6 :" gTeypeError: gRecipeManager is nultRlec
+ipes: faJlalvianSg back ctript erroo ra:  sryenscohurrcoen:o/u/sg rmee/smsoadguel efso/rL:o"g i"nhMtatnpa:g/e/rlPoacraelnhto.sjts:m8,0 8l1ine 136: TypeError: gRecipe"Ma
+nager is null
+console.warn: LoginRecipes: "getJavaScript error: Rreecipes: falling back to a synchronous messagseo ufrocre::"/ /"ghrtet/p://modules/LoginManagerParent.jsm,l olcaine 136: TypeError: gRlhost:8081"
+ecipeManager is null
+console.warn: LoginRecipes: "getJavaSRcript erroerc: resouricpees: :f//gre/modulaes/LoginManagelrlPiang breanck to a synchrotn.ojussm ,m leissage for:" n"ehttp:// l1o3c6: TaylpheoEst:8081"r
+ror: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: fallJing baacvka Stcor iapt error: resource:// gsryen/chromnooduusl emse/sLsoaggien Mfaonra:g"e r"Phatrtepn:/t/.ljoscma,l hloisnte: 813068:1 "Ty
+peError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling bacJavak to a synchronous message for:" "http://localhost:808S1"c
+ript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+

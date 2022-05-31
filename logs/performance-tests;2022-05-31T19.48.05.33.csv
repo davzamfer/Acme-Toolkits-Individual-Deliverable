@@ -1,0 +1,5 @@
+timestamp,test-class,test-method,time,description,result
+"2022-05-31 19:47:11.8","acme.testing.inventor.CHIMPUM.InventorCHIMPUMListTest","positive",11577,""[1] recordIndex=0, title=Chimpun1, description=A complete chimpum"","OK"
+"2022-05-31 19:47:20.423","acme.testing.inventor.CHIMPUM.InventorCHIMPUMListTest","positive",8035,""[2] recordIndex=1, title=Chimpun2, description=a chimpum"","OK"
+"2022-05-31 19:47:27.629","acme.testing.inventor.CHIMPUM.InventorCHIMPUMListTest","negative",6609,""[1] recordIndex=0, title=Chimpun1, description=A complete chimpum"","OK"
+"2022-05-31 19:47:35.001","acme.testing.inventor.CHIMPUM.InventorCHIMPUMListTest","negative",6829,""[2] recordIndex=1, title=Chimpun2, description=a chimpum"","OK"

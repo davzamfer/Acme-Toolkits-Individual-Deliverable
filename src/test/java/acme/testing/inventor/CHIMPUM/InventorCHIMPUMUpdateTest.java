@@ -15,7 +15,7 @@ public class InventorCHIMPUMUpdateTest extends TestHarness {
 	@ParameterizedTest
 	@CsvFileSource(resources = "/inventor/chimpum/update-positive-chimpum.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(10)
-	public void positive(final int recordIndex, final String title, final String description, final String code, 
+	public void positive(final int recordIndex, final String title, final String description, 
 			final String startDate, final String finishDate, final String budget, final String link) {
 		
 		super.signIn("inventor1", "inventor1");
@@ -59,7 +59,7 @@ public class InventorCHIMPUMUpdateTest extends TestHarness {
 	@ParameterizedTest
 	@CsvFileSource(resources = "/inventor/chimpum/update-negative-chimpum.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(20)
-	public void negative(final int recordIndex, final String title, final String description, final String code, 
+	public void negative(final int recordIndex, final String title, final String description,
 		final String startDate, final String finishDate, final String budget, final String link) {
 		
 		super.signIn("inventor1", "inventor1");
