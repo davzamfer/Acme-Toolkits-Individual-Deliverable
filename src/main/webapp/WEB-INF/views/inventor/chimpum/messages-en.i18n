@@ -22,3 +22,4 @@ inventor.CHIMPUM.form.error.finishDate = The period of time must be at least one
 inventor.CHIMPUM.form.error.startDate = The period of time must start at least one month after the patronage is created
 inventor.CHIMPUM.form.error.negative-budget = The amount must be positive
 inventor.CHIMPUM.form.error.negative-currency = The currency is incorrect
+inventor.CHIMPUM.form.error.duplicated-pattern = The code introduced already exists

@@ -135,6 +135,11 @@ public class InventorCHIMPUMCreateService implements AbstractCreateService<Inven
 			errors.state(request,acceptedCurrency, "budget", "inventor.CHIMPUM.form.error.negative-currency");
 		}
 
+		if (!errors.hasErrors("pattern")) {
+			final String code = entity.getCode();
+			final Boolean pito = this.repository.findAllCHIMPUMS().stream().anyMatch(x->x.getCode().equals(code));
+			errors.state(request,!pito, "pattern", "inventor.CHIMPUM.form.error.duplicated-pattern");
+		}
 	}
 
 	@Override

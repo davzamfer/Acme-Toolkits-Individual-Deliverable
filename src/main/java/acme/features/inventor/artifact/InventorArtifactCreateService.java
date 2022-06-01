@@ -76,7 +76,7 @@ public class InventorArtifactCreateService implements AbstractCreateService<Inve
 		model.setAttribute("chimpums", chimpums);
 		request.unbind(entity, model,"name", "code", "technology" , "description" , "retailPrice", "published", "link");
 	
-		
+	
 	}
 
 	@Override

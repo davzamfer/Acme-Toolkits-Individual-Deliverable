@@ -32,13 +32,13 @@ public class CHIMPUM extends AbstractEntity{
 	// Attributes -------------------------------------------------------------
 	
 	@NotNull
-	@Pattern(regexp = "PATTERN")
+	@Pattern(regexp = "^[A-Z]{3}-[0-9]{3}$")
 	protected String			pattern;
 
 	@Temporal(TemporalType.TIMESTAMP)
 	@Past
 	@NotNull
-	protected Date					creationMoment;
+	protected Date				creationMoment;
 	
 	@NotBlank
 	@Length(max = 100)
@@ -68,6 +68,6 @@ public class CHIMPUM extends AbstractEntity{
 	public String getCode() {
 		String code;
 		code = new SimpleDateFormat("dd/MM/yy").format(this.creationMoment);
-		return this.pattern + " || " + code ;
+		return this.pattern + "-" + code ;
 	}
 }

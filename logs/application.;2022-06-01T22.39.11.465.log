@@ -1,0 +1,635 @@
+2022-06-01 22:12:28.164 INFO  [acme.Launcher@main] Starting Launcher using Java 1.8.0_281 on DESKTOP-UDQDLDQ with PID 6552 (C:\Workspace-22.0\Frameworks\Acme-Framework-22.7\target\classes started by david in C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable) 
+2022-06-01 22:12:28.165 DEBUG [acme.Launcher@main] Running with Spring Boot v2.4.2, Spring v5.3.3 
+2022-06-01 22:12:28.167 INFO  [acme.Launcher@main] The following profiles are active: development,default 
+2022-06-01 22:12:33.665 DEBUG [org.apache.jasper.servlet.JasperInitializer@main] Initializing Jasper for context [application] 
+2022-06-01 22:12:41.539 DEBUG [org.apache.jasper.servlet.JspServlet@main] Scratch dir for the JSP engine is: [C:\Users\david\AppData\Local\Temp\tomcat.8080.5797211999577578549\work\Tomcat\localhost\acme-toolkits-22.7] 
+2022-06-01 22:12:41.539 DEBUG [org.apache.jasper.servlet.JspServlet@main] IMPORTANT: Do not modify the generated servlets 
+2022-06-01 22:12:41.553 INFO  [acme.Launcher@main] Started Launcher in 14.376 seconds (JVM running for 15.199) 
+2022-06-01 22:12:41.559 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Workspace-22.0/Projects/Acme-Toolkits-Individual-Deliverable/target/test-classes/' 
+2022-06-01 22:12:41.560 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Workspace-22.0/Projects/Acme-Toolkits-Individual-Deliverable/target/classes/' 
+2022-06-01 22:12:41.560 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Workspace-22.0/Projects/Acme-Toolkits-Individual-Deliverable/lib/SpamDetector.jar' 
+2022-06-01 22:12:41.560 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Workspace-22.0/Frameworks/Acme-Framework-22.7/target/classes/' 
+2022-06-01 22:12:41.560 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Workspace-22.0/Frameworks/Acme-Framework-22.7/target/test-classes/' 
+2022-06-01 22:12:41.561 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.4.2/spring-boot-starter-tomcat-2.4.2.jar' 
+2022-06-01 22:12:41.561 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar' 
+2022-06-01 22:12:41.561 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.41/tomcat-embed-core-9.0.41.jar' 
+2022-06-01 22:12:41.561 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/glassfish/jakarta.el/3.0.3/jakarta.el-3.0.3.jar' 
+2022-06-01 22:12:41.562 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.41/tomcat-embed-websocket-9.0.41.jar' 
+2022-06-01 22:12:41.562 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/apache/tomcat/embed/tomcat-embed-jasper/9.0.41/tomcat-embed-jasper-9.0.41.jar' 
+2022-06-01 22:12:41.562 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/9.0.41/tomcat-embed-el-9.0.41.jar' 
+2022-06-01 22:12:41.563 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/eclipse/jdt/ecj/3.18.0/ecj-3.18.0.jar' 
+2022-06-01 22:12:41.563 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/javax/servlet/jstl/1.2/jstl-1.2.jar' 
+2022-06-01 22:12:41.563 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/springframework/boot/spring-boot-starter-security/2.4.2/spring-boot-starter-security-2.4.2.jar' 
+2022-06-01 22:12:41.563 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/springframework/boot/spring-boot-starter/2.4.2/spring-boot-starter-2.4.2.jar' 
+2022-06-01 22:12:41.563 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/springframework/boot/spring-boot/2.4.2/spring-boot-2.4.2.jar' 
+2022-06-01 22:12:41.563 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.4.2/spring-boot-autoconfigure-2.4.2.jar' 
+2022-06-01 22:12:41.563 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.4.2/spring-boot-starter-logging-2.4.2.jar' 
+2022-06-01 22:12:41.563 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar' 
+2022-06-01 22:12:41.564 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar' 
+2022-06-01 22:12:41.564 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.13.3/log4j-to-slf4j-2.13.3.jar' 
+2022-06-01 22:12:41.564 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar' 
+2022-06-01 22:12:41.564 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30.jar' 
+2022-06-01 22:12:41.564 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/yaml/snakeyaml/1.27/snakeyaml-1.27.jar' 
+2022-06-01 22:12:41.564 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/springframework/spring-aop/5.3.3/spring-aop-5.3.3.jar' 
+2022-06-01 22:12:41.565 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/springframework/security/spring-security-web/5.4.2/spring-security-web-5.4.2.jar' 
+2022-06-01 22:12:41.565 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/springframework/security/spring-security-core/5.4.2/spring-security-core-5.4.2.jar' 
+2022-06-01 22:12:41.565 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/springframework/spring-beans/5.3.3/spring-beans-5.3.3.jar' 
+2022-06-01 22:12:41.565 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/springframework/spring-context/5.3.3/spring-context-5.3.3.jar' 
+2022-06-01 22:12:41.565 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/springframework/spring-core/5.3.3/spring-core-5.3.3.jar' 
+2022-06-01 22:12:41.565 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/springframework/spring-jcl/5.3.3/spring-jcl-5.3.3.jar' 
+2022-06-01 22:12:41.566 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/springframework/spring-expression/5.3.3/spring-expression-5.3.3.jar' 
+2022-06-01 22:12:41.566 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/springframework/spring-web/5.3.3/spring-web-5.3.3.jar' 
+2022-06-01 22:12:41.566 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/springframework/security/spring-security-config/5.4.2/spring-security-config-5.4.2.jar' 
+2022-06-01 22:12:41.567 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/springframework/security/spring-security-taglibs/5.4.2/spring-security-taglibs-5.4.2.jar' 
+2022-06-01 22:12:41.567 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/springframework/security/spring-security-acl/5.4.2/spring-security-acl-5.4.2.jar' 
+2022-06-01 22:12:41.567 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/springframework/spring-jdbc/5.3.3/spring-jdbc-5.3.3.jar' 
+2022-06-01 22:12:41.567 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/springframework/spring-tx/5.3.3/spring-tx-5.3.3.jar' 
+2022-06-01 22:12:41.567 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.4.2/spring-boot-starter-web-2.4.2.jar' 
+2022-06-01 22:12:41.567 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.4.2/spring-boot-starter-json-2.4.2.jar' 
+2022-06-01 22:12:41.567 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.4/jackson-databind-2.11.4.jar' 
+2022-06-01 22:12:41.567 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.4/jackson-annotations-2.11.4.jar' 
+2022-06-01 22:12:41.567 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.4/jackson-core-2.11.4.jar' 
+2022-06-01 22:12:41.568 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.11.4/jackson-datatype-jdk8-2.11.4.jar' 
+2022-06-01 22:12:41.568 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.4/jackson-datatype-jsr310-2.11.4.jar' 
+2022-06-01 22:12:41.568 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.11.4/jackson-module-parameter-names-2.11.4.jar' 
+2022-06-01 22:12:41.568 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/springframework/spring-webmvc/5.3.3/spring-webmvc-5.3.3.jar' 
+2022-06-01 22:12:41.568 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/apache/tiles/tiles-jsp/3.0.8/tiles-jsp-3.0.8.jar' 
+2022-06-01 22:12:41.568 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/apache/tiles/tiles-servlet/3.0.8/tiles-servlet-3.0.8.jar' 
+2022-06-01 22:12:41.568 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/apache/tiles/tiles-core/3.0.8/tiles-core-3.0.8.jar' 
+2022-06-01 22:12:41.569 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/commons-digester/commons-digester/2.0/commons-digester-2.0.jar' 
+2022-06-01 22:12:41.569 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar' 
+2022-06-01 22:12:41.569 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/apache/tiles/tiles-request-servlet/1.0.7/tiles-request-servlet-1.0.7.jar' 
+2022-06-01 22:12:41.569 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/apache/tiles/tiles-template/3.0.8/tiles-template-3.0.8.jar' 
+2022-06-01 22:12:41.569 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/apache/tiles/tiles-api/3.0.8/tiles-api-3.0.8.jar' 
+2022-06-01 22:12:41.570 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/apache/tiles/tiles-autotag-core-runtime/1.2/tiles-autotag-core-runtime-1.2.jar' 
+2022-06-01 22:12:41.570 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar' 
+2022-06-01 22:12:41.570 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/apache/tiles/tiles-request-jsp/1.0.7/tiles-request-jsp-1.0.7.jar' 
+2022-06-01 22:12:41.570 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/apache/tiles/tiles-request-api/1.0.7/tiles-request-api-1.0.7.jar' 
+2022-06-01 22:12:41.570 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/2.4.2/spring-boot-starter-data-jpa-2.4.2.jar' 
+2022-06-01 22:12:41.570 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/springframework/boot/spring-boot-starter-aop/2.4.2/spring-boot-starter-aop-2.4.2.jar' 
+2022-06-01 22:12:41.570 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar' 
+2022-06-01 22:12:41.571 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.4.2/spring-boot-starter-jdbc-2.4.2.jar' 
+2022-06-01 22:12:41.571 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3.jar' 
+2022-06-01 22:12:41.571 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar' 
+2022-06-01 22:12:41.571 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/hibernate/hibernate-core/5.4.27.Final/hibernate-core-5.4.27.Final.jar' 
+2022-06-01 22:12:41.571 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/jboss/logging/jboss-logging/3.4.1.Final/jboss-logging-3.4.1.Final.jar' 
+2022-06-01 22:12:41.571 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/javassist/javassist/3.27.0-GA/javassist-3.27.0-GA.jar' 
+2022-06-01 22:12:41.571 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar' 
+2022-06-01 22:12:41.572 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/jboss/jandex/2.1.3.Final/jandex-2.1.3.Final.jar' 
+2022-06-01 22:12:41.572 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar' 
+2022-06-01 22:12:41.572 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/dom4j/dom4j/2.1.3/dom4j-2.1.3.jar' 
+2022-06-01 22:12:41.572 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.1.2.Final/hibernate-commons-annotations-5.1.2.Final.jar' 
+2022-06-01 22:12:41.573 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.3/jaxb-runtime-2.3.3.jar' 
+2022-06-01 22:12:41.573 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/glassfish/jaxb/txw2/2.3.3/txw2-2.3.3.jar' 
+2022-06-01 22:12:41.573 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.11/istack-commons-runtime-3.0.11.jar' 
+2022-06-01 22:12:41.573 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar' 
+2022-06-01 22:12:41.573 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/springframework/data/spring-data-jpa/2.4.3/spring-data-jpa-2.4.3.jar' 
+2022-06-01 22:12:41.574 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/springframework/data/spring-data-commons/2.4.3/spring-data-commons-2.4.3.jar' 
+2022-06-01 22:12:41.574 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/springframework/spring-orm/5.3.3/spring-orm-5.3.3.jar' 
+2022-06-01 22:12:41.574 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/springframework/spring-aspects/5.3.3/spring-aspects-5.3.3.jar' 
+2022-06-01 22:12:41.574 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/springframework/boot/spring-boot-starter-validation/2.4.2/spring-boot-starter-validation-2.4.2.jar' 
+2022-06-01 22:12:41.574 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/hibernate/validator/hibernate-validator/6.1.7.Final/hibernate-validator-6.1.7.Final.jar' 
+2022-06-01 22:12:41.574 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar' 
+2022-06-01 22:12:41.574 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/mysql/mysql-connector-java/8.0.22/mysql-connector-java-8.0.22.jar' 
+2022-06-01 22:12:41.575 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/com/zaxxer/HikariCP/3.4.5/HikariCP-3.4.5.jar' 
+2022-06-01 22:12:41.575 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/springframework/boot/spring-boot-starter-test/2.4.2/spring-boot-starter-test-2.4.2.jar' 
+2022-06-01 22:12:41.575 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/springframework/boot/spring-boot-test/2.4.2/spring-boot-test-2.4.2.jar' 
+2022-06-01 22:12:41.575 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/2.4.2/spring-boot-test-autoconfigure-2.4.2.jar' 
+2022-06-01 22:12:41.575 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar' 
+2022-06-01 22:12:41.575 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar' 
+2022-06-01 22:12:41.575 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar' 
+2022-06-01 22:12:41.576 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar' 
+2022-06-01 22:12:41.576 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar' 
+2022-06-01 22:12:41.576 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar' 
+2022-06-01 22:12:41.576 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/assertj/assertj-core/3.18.1/assertj-core-3.18.1.jar' 
+2022-06-01 22:12:41.576 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar' 
+2022-06-01 22:12:41.576 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/junit/jupiter/junit-jupiter/5.7.0/junit-jupiter-5.7.0.jar' 
+2022-06-01 22:12:41.576 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/mockito/mockito-core/3.6.28/mockito-core-3.6.28.jar' 
+2022-06-01 22:12:41.576 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/net/bytebuddy/byte-buddy-agent/1.10.19/byte-buddy-agent-1.10.19.jar' 
+2022-06-01 22:12:41.577 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/objenesis/objenesis/3.1/objenesis-3.1.jar' 
+2022-06-01 22:12:41.577 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/mockito/mockito-junit-jupiter/3.6.28/mockito-junit-jupiter-3.6.28.jar' 
+2022-06-01 22:12:41.577 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0.jar' 
+2022-06-01 22:12:41.577 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar' 
+2022-06-01 22:12:41.577 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/springframework/spring-test/5.3.3/spring-test-5.3.3.jar' 
+2022-06-01 22:12:41.577 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/xmlunit/xmlunit-core/2.7.0/xmlunit-core-2.7.0.jar' 
+2022-06-01 22:12:41.578 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar' 
+2022-06-01 22:12:41.578 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar' 
+2022-06-01 22:12:41.578 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar' 
+2022-06-01 22:12:41.578 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar' 
+2022-06-01 22:12:41.578 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar' 
+2022-06-01 22:12:41.578 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar' 
+2022-06-01 22:12:41.578 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.7.0/junit-jupiter-params-5.7.0.jar' 
+2022-06-01 22:12:41.578 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/junit/platform/junit-platform-launcher/1.7.0/junit-platform-launcher-1.7.0.jar' 
+2022-06-01 22:12:41.579 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar' 
+2022-06-01 22:12:41.579 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar' 
+2022-06-01 22:12:41.579 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar' 
+2022-06-01 22:12:41.579 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar' 
+2022-06-01 22:12:41.579 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar' 
+2022-06-01 22:12:41.579 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar' 
+2022-06-01 22:12:41.580 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar' 
+2022-06-01 22:12:41.580 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar' 
+2022-06-01 22:12:41.580 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar' 
+2022-06-01 22:12:41.580 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar' 
+2022-06-01 22:12:41.580 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/net/bytebuddy/byte-buddy/1.10.19/byte-buddy-1.10.19.jar' 
+2022-06-01 22:12:41.580 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar' 
+2022-06-01 22:12:41.580 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar' 
+2022-06-01 22:12:41.580 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar' 
+2022-06-01 22:12:41.581 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar' 
+2022-06-01 22:12:41.581 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar' 
+2022-06-01 22:12:41.581 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar' 
+2022-06-01 22:12:41.581 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar' 
+2022-06-01 22:12:41.581 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/com/squareup/okhttp3/okhttp/3.14.9/okhttp-3.14.9.jar' 
+2022-06-01 22:12:41.581 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar' 
+2022-06-01 22:12:41.581 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar' 
+2022-06-01 22:12:41.582 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/apache/commons/commons-text/1.8/commons-text-1.8.jar' 
+2022-06-01 22:12:41.582 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar' 
+2022-06-01 22:12:41.582 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/commons-cli/commons-cli/1.4/commons-cli-1.4.jar' 
+2022-06-01 22:12:41.582 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/projectlombok/lombok/1.18.16/lombok-1.18.16.jar' 
+2022-06-01 22:12:41.582 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/com/opencsv/opencsv/5.4/opencsv-5.4.jar' 
+2022-06-01 22:12:41.582 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar' 
+2022-06-01 22:12:41.582 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar' 
+2022-06-01 22:12:41.582 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar' 
+2022-06-01 22:12:41.583 DEBUG [acme.Launcher@main] Found classpath entry '/C:/Users/david/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar' 
+2022-06-01 22:12:41.835 DEBUG [acme.Launcher@main] Found entity class 'acme.entities.CHIMPUM.CHIMPUM 
+2022-06-01 22:12:41.835 DEBUG [acme.Launcher@main] Found entity class 'acme.entities.announcements.Announcement 
+2022-06-01 22:12:41.835 DEBUG [acme.Launcher@main] Found entity class 'acme.entities.artifacts.Artifact 
+2022-06-01 22:12:41.835 DEBUG [acme.Launcher@main] Found entity class 'acme.entities.artifacts.Quantity 
+2022-06-01 22:12:41.835 DEBUG [acme.Launcher@main] Found entity class 'acme.entities.artifacts.Toolkit 
+2022-06-01 22:12:41.835 DEBUG [acme.Launcher@main] Found entity class 'acme.entities.chirps.Chirp 
+2022-06-01 22:12:41.836 DEBUG [acme.Launcher@main] Found entity class 'acme.entities.configData.ConfigData 
+2022-06-01 22:12:41.836 DEBUG [acme.Launcher@main] Found entity class 'acme.entities.patronage.Patronage 
+2022-06-01 22:12:41.836 DEBUG [acme.Launcher@main] Found entity class 'acme.entities.patronage.PatronageReport 
+2022-06-01 22:12:41.836 DEBUG [acme.Launcher@main] Found entity class 'acme.roles.Inventor 
+2022-06-01 22:12:41.836 DEBUG [acme.Launcher@main] Found entity class 'acme.roles.Patron 
+2022-06-01 22:12:41.836 DEBUG [acme.Launcher@main] Found entity class 'acme.framework.entities.UserAccount 
+2022-06-01 22:12:41.836 DEBUG [acme.Launcher@main] Found entity class 'acme.framework.roles.Administrator 
+2022-06-01 22:12:41.836 DEBUG [acme.Launcher@main] Found entity class 'acme.framework.roles.Anonymous 
+2022-06-01 22:12:41.836 DEBUG [acme.Launcher@main] Found entity class 'acme.framework.roles.Any 
+2022-06-01 22:12:41.837 DEBUG [acme.Launcher@main] Found entity class 'acme.framework.roles.Authenticated 
+2022-06-01 22:12:41.842 INFO  [acme.Launcher@main] Running application (Standalone) 
+2022-06-01 22:13:25.934 DEBUG [org.hibernate.SQL@http-nio-8080-exec-1] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_16_, useraccoun0_.identity as identity2_16_, useraccoun0_.password as password3_16_, useraccoun0_.username as username4_16_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-06-01 22:13:25.984 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-1] binding parameter [1] as [VARCHAR] - [inventor1] 
+2022-06-01 22:13:26.121 DEBUG [org.hibernate.SQL@http-nio-8080-exec-1] select roles0_.user_account_id as user_acc1_17_0_, roles0_.id as id1_17_0_, roles0_.id as id1_0_1_, roles0_.version as version2_0_1_, roles0_.user_account_id as user_acc1_17_1_, roles0_.company as company1_10_1_, roles0_.link as link2_10_1_, roles0_.statement as statemen3_10_1_, roles0_.company as company1_11_1_, roles0_.link as link2_11_1_, roles0_.statement as statemen3_11_1_, roles0_.clazz_ as clazz_1_ from ( select id, version, user_account_id, company, link, statement, 11 as clazz_ from inventor union all select id, version, user_account_id, company, link, statement, 12 as clazz_ from patron union all select id, version, user_account_id, null as company, null as link, null as statement, 14 as clazz_ from administrator union all select id, version, user_account_id, null as company, null as link, null as statement, 15 as clazz_ from anonymous union all select id, version, user_account_id, null as company, null as link, null as statement, 16 as clazz_ from any union all select id, version, user_account_id, null as company, null as link, null as statement, 17 as clazz_ from authenticated ) roles0_ where roles0_.user_account_id=? 
+2022-06-01 22:13:26.123 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-1] binding parameter [1] as [INTEGER] - [6] 
+2022-06-01 22:13:26.352 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-1] DISPATCHING GET /acme-toolkits-22.7/inventor/chimpum/list 
+2022-06-01 22:13:26.353 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-1] Command: list 
+2022-06-01 22:13:26.353 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-1] Model:   {} 
+2022-06-01 22:13:26.353 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-1] Locale:  en 
+2022-06-01 22:13:26.354 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-1] Starting transaction a7d67952-1321-4e2d-9b68-62820c1a909b 
+2022-06-01 22:13:26.368 DEBUG [org.hibernate.SQL@http-nio-8080-exec-1] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_16_, useraccoun0_.identity as identity2_16_, useraccoun0_.password as password3_16_, useraccoun0_.username as username4_16_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-06-01 22:13:26.369 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-1] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-06-01 22:13:26.373 DEBUG [org.hibernate.SQL@http-nio-8080-exec-1] select roles0_.user_account_id as user_acc1_17_0_, roles0_.id as id1_17_0_, roles0_.id as id1_0_1_, roles0_.version as version2_0_1_, roles0_.user_account_id as user_acc1_17_1_, roles0_.company as company1_10_1_, roles0_.link as link2_10_1_, roles0_.statement as statemen3_10_1_, roles0_.company as company1_11_1_, roles0_.link as link2_11_1_, roles0_.statement as statemen3_11_1_, roles0_.clazz_ as clazz_1_ from ( select id, version, user_account_id, company, link, statement, 11 as clazz_ from inventor union all select id, version, user_account_id, company, link, statement, 12 as clazz_ from patron union all select id, version, user_account_id, null as company, null as link, null as statement, 14 as clazz_ from administrator union all select id, version, user_account_id, null as company, null as link, null as statement, 15 as clazz_ from anonymous union all select id, version, user_account_id, null as company, null as link, null as statement, 16 as clazz_ from any union all select id, version, user_account_id, null as company, null as link, null as statement, 17 as clazz_ from authenticated ) roles0_ where roles0_.user_account_id=? 
+2022-06-01 22:13:26.373 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-1] binding parameter [1] as [INTEGER] - [1] 
+2022-06-01 22:13:26.397 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\administrator\administrator-dashboard\messages-en.i18n] with encoding 'utf-8' 
+2022-06-01 22:13:26.398 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\administrator\announcement\messsages-en.i18n] with encoding 'utf-8' 
+2022-06-01 22:13:26.400 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\administrator\config-data\messsages-en.i18n] with encoding 'utf-8' 
+2022-06-01 22:13:26.401 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\administrator\user-account\messages-en.i18n] with encoding 'utf-8' 
+2022-06-01 22:13:26.403 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\anonymous\user-account\messages-en.i18n] with encoding 'utf-8' 
+2022-06-01 22:13:26.404 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\any\artifact\messages-en.i18n] with encoding 'utf-8' 
+2022-06-01 22:13:26.405 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\any\chirp\messages-en.i18n] with encoding 'utf-8' 
+2022-06-01 22:13:26.406 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\any\toolkit\messages-en.i18n] with encoding 'utf-8' 
+2022-06-01 22:13:26.407 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\any\user-account\messages-en.i18n] with encoding 'utf-8' 
+2022-06-01 22:13:26.408 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\authenticated\announcement\messsages-en.i18n] with encoding 'utf-8' 
+2022-06-01 22:13:26.409 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\authenticated\config-data\messsages-en.i18n] with encoding 'utf-8' 
+2022-06-01 22:13:26.410 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\authenticated\consumer\messsages-en.i18n] with encoding 'utf-8' 
+2022-06-01 22:13:26.411 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\authenticated\inventor\messsages-en.i18n] with encoding 'utf-8' 
+2022-06-01 22:13:26.411 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\authenticated\patron\messsages-en.i18n] with encoding 'utf-8' 
+2022-06-01 22:13:26.412 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\authenticated\provider\messsages-en.i18n] with encoding 'utf-8' 
+2022-06-01 22:13:26.413 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\authenticated\user-account\messages-en.i18n] with encoding 'utf-8' 
+2022-06-01 22:13:26.415 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\fragments\banner-en.i18n] with encoding 'utf-8' 
+2022-06-01 22:13:26.416 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\fragments\company-en.i18n] with encoding 'utf-8' 
+2022-06-01 22:13:26.417 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\fragments\footer-en.i18n] with encoding 'utf-8' 
+2022-06-01 22:13:26.418 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\fragments\license-en.i18n] with encoding 'utf-8' 
+2022-06-01 22:13:26.420 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\fragments\menu-en.i18n] with encoding 'utf-8' 
+2022-06-01 22:13:26.422 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\fragments\messsages-en.i18n] with encoding 'utf-8' 
+2022-06-01 22:13:26.424 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\fragments\title-en.i18n] with encoding 'utf-8' 
+2022-06-01 22:13:26.425 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\fragments\welcome-en.i18n] with encoding 'utf-8' 
+2022-06-01 22:13:26.429 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\inventor\artifact\messages-en.i18n] with encoding 'utf-8' 
+2022-06-01 22:13:26.431 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\inventor\chimpum\messages-en.i18n] with encoding 'utf-8' 
+2022-06-01 22:13:26.432 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\inventor\patronage\messages-en.i18n] with encoding 'utf-8' 
+2022-06-01 22:13:26.433 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\inventor\patronage-report\messages-en.i18n] with encoding 'utf-8' 
+2022-06-01 22:13:26.434 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\inventor\quantity\messages-en.i18n] with encoding 'utf-8' 
+2022-06-01 22:13:26.435 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\inventor\toolkit\messages-en.i18n] with encoding 'utf-8' 
+2022-06-01 22:13:26.437 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\master\defaults-en.i18n] with encoding 'utf-8' 
+2022-06-01 22:13:26.438 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\master\master-en.i18n] with encoding 'utf-8' 
+2022-06-01 22:13:26.439 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\master\throwables-en.i18n] with encoding 'utf-8' 
+2022-06-01 22:13:26.440 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\master\validation-en.i18n] with encoding 'utf-8' 
+2022-06-01 22:13:26.441 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\patron\patron-dashboard\messages-en.i18n] with encoding 'utf-8' 
+2022-06-01 22:13:26.443 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\patron\patronage\messages-en.i18n] with encoding 'utf-8' 
+2022-06-01 22:13:26.445 DEBUG [acme.framework.configuration.ExtendedMessageSource@http-nio-8080-exec-1] Loading properties [C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\patron\patronage-report\messages-en.i18n] with encoding 'utf-8' 
+2022-06-01 22:13:26.448 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-1] Rolling transaction a7d67952-1321-4e2d-9b68-62820c1a909b back 
+2022-06-01 22:13:26.451 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-1] Starting transaction 6e36b4f0-bb26-4022-80bf-52d11a3785bf 
+2022-06-01 22:13:26.455 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-1] Committing transaction 6e36b4f0-bb26-4022-80bf-52d11a3785bf 
+2022-06-01 22:13:26.458 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-1] SERVING GET /acme-toolkits-22.7/inventor/chimpum/list 
+2022-06-01 22:13:26.459 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-1] Result: ModelAndView [view="master/panic"; model={oops=java.lang.IllegalStateException: Access is not authorised}] 
+2022-06-01 22:13:26.481 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8080-exec-1] View name 'master/panic', model {oops=java.lang.IllegalStateException: Access is not authorised, org.springframework.validation.BindingResult.oops=org.springframework.validation.BeanPropertyBindingResult: 0 errors} 
+2022-06-01 22:13:26.506 DEBUG [org.apache.tiles.definition.dao.BaseLocaleUrlDefinitionDAO@http-nio-8080-exec-1] File Resource file:/C:/Workspace-22.0/Projects/Acme-Toolkits-Individual-Deliverable/target/classes/WEB-INF/views/master/tiles_en.xml at file:/C:/Workspace-22.0/Projects/Acme-Toolkits-Individual-Deliverable/target/classes/WEB-INF/views/master/tiles_en.xml not found, continue 
+2022-06-01 22:13:26.519 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-1] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-06-01 22:13:26.519 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-1] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-06-01 22:13:26.520 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-1] PathInfo: null 
+2022-06-01 22:13:26.522 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-1] RealPath: C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\master\page.jsp 
+2022-06-01 22:13:26.522 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-1] RequestURI: /acme-toolkits-22.7/WEB-INF/views/master/page.jsp 
+2022-06-01 22:13:26.523 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-1] QueryString: null 
+2022-06-01 22:13:31.992 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-1] JspEngine --> /WEB-INF/views/master/panic.jsp 
+2022-06-01 22:13:31.993 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-1] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-06-01 22:13:31.993 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-1] PathInfo: null 
+2022-06-01 22:13:31.995 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-1] RealPath: C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\master\panic.jsp 
+2022-06-01 22:13:31.995 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-1] RequestURI: /acme-toolkits-22.7/WEB-INF/views/master/page.jsp 
+2022-06-01 22:13:31.995 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-1] QueryString: null 
+2022-06-01 22:13:32.461 ERROR [org.apache.jsp.WEB_002dINF.views.master.panic_jsp@http-nio-8080-exec-1] HTTP GET /acme-toolkits-22.7/WEB-INF/views/master/page.jsp HTTP/1.1 
+2022-06-01 22:13:32.462 ERROR [org.apache.jsp.WEB_002dINF.views.master.panic_jsp@http-nio-8080-exec-1] Status: 500 
+2022-06-01 22:13:32.463 ERROR [org.apache.jsp.WEB_002dINF.views.master.panic_jsp@http-nio-8080-exec-1] Exception: acme.framework.helpers.Assert.state(Assert.java:45): Access is not authorised 
+2022-06-01 22:13:32.743 DEBUG [org.hibernate.SQL@http-nio-8080-exec-1] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_16_, useraccoun0_.identity as identity2_16_, useraccoun0_.password as password3_16_, useraccoun0_.username as username4_16_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-06-01 22:13:32.744 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-1] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-06-01 22:13:32.747 DEBUG [org.hibernate.SQL@http-nio-8080-exec-1] select roles0_.user_account_id as user_acc1_17_0_, roles0_.id as id1_17_0_, roles0_.id as id1_0_1_, roles0_.version as version2_0_1_, roles0_.user_account_id as user_acc1_17_1_, roles0_.company as company1_10_1_, roles0_.link as link2_10_1_, roles0_.statement as statemen3_10_1_, roles0_.company as company1_11_1_, roles0_.link as link2_11_1_, roles0_.statement as statemen3_11_1_, roles0_.clazz_ as clazz_1_ from ( select id, version, user_account_id, company, link, statement, 11 as clazz_ from inventor union all select id, version, user_account_id, company, link, statement, 12 as clazz_ from patron union all select id, version, user_account_id, null as company, null as link, null as statement, 14 as clazz_ from administrator union all select id, version, user_account_id, null as company, null as link, null as statement, 15 as clazz_ from anonymous union all select id, version, user_account_id, null as company, null as link, null as statement, 16 as clazz_ from any union all select id, version, user_account_id, null as company, null as link, null as statement, 17 as clazz_ from authenticated ) roles0_ where roles0_.user_account_id=? 
+2022-06-01 22:13:32.748 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-1] binding parameter [1] as [INTEGER] - [1] 
+2022-06-01 22:15:21.660 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8080-exec-8] View name 'master/sign-in', model {username=, password=, remember=false} 
+2022-06-01 22:15:21.662 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-8] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-06-01 22:15:21.664 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-8] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-06-01 22:15:21.666 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-8] PathInfo: null 
+2022-06-01 22:15:21.673 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-8] RealPath: C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\master\page.jsp 
+2022-06-01 22:15:21.674 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-8] RequestURI: /acme-toolkits-22.7/WEB-INF/views/master/page.jsp 
+2022-06-01 22:15:21.675 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-8] QueryString: null 
+2022-06-01 22:15:21.897 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-8] JspEngine --> /WEB-INF/views/master/sign-in.jsp 
+2022-06-01 22:15:21.898 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-8] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-06-01 22:15:21.898 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-8] PathInfo: null 
+2022-06-01 22:15:21.900 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-8] RealPath: C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\master\sign-in.jsp 
+2022-06-01 22:15:21.902 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-8] RequestURI: /acme-toolkits-22.7/WEB-INF/views/master/page.jsp 
+2022-06-01 22:15:21.903 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-8] QueryString: null 
+2022-06-01 22:15:24.848 DEBUG [org.hibernate.SQL@http-nio-8080-exec-8] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_16_, useraccoun0_.identity as identity2_16_, useraccoun0_.password as password3_16_, useraccoun0_.username as username4_16_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-06-01 22:15:24.851 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-8] binding parameter [1] as [VARCHAR] - [anonymous] 
+2022-06-01 22:15:24.855 DEBUG [org.hibernate.SQL@http-nio-8080-exec-8] select roles0_.user_account_id as user_acc1_17_0_, roles0_.id as id1_17_0_, roles0_.id as id1_0_1_, roles0_.version as version2_0_1_, roles0_.user_account_id as user_acc1_17_1_, roles0_.company as company1_10_1_, roles0_.link as link2_10_1_, roles0_.statement as statemen3_10_1_, roles0_.company as company1_11_1_, roles0_.link as link2_11_1_, roles0_.statement as statemen3_11_1_, roles0_.clazz_ as clazz_1_ from ( select id, version, user_account_id, company, link, statement, 11 as clazz_ from inventor union all select id, version, user_account_id, company, link, statement, 12 as clazz_ from patron union all select id, version, user_account_id, null as company, null as link, null as statement, 14 as clazz_ from administrator union all select id, version, user_account_id, null as company, null as link, null as statement, 15 as clazz_ from anonymous union all select id, version, user_account_id, null as company, null as link, null as statement, 16 as clazz_ from any union all select id, version, user_account_id, null as company, null as link, null as statement, 17 as clazz_ from authenticated ) roles0_ where roles0_.user_account_id=? 
+2022-06-01 22:15:24.856 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-8] binding parameter [1] as [INTEGER] - [1] 
+2022-06-01 22:15:27.337 DEBUG [org.hibernate.SQL@http-nio-8080-exec-2] select useraccoun0_.id as id1_0_, useraccoun0_.version as version2_0_, useraccoun0_.enabled as enabled1_16_, useraccoun0_.identity as identity2_16_, useraccoun0_.password as password3_16_, useraccoun0_.username as username4_16_ from user_account useraccoun0_ where useraccoun0_.username=? 
+2022-06-01 22:15:27.338 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-2] binding parameter [1] as [VARCHAR] - [inventor1] 
+2022-06-01 22:15:27.342 DEBUG [org.hibernate.SQL@http-nio-8080-exec-2] select roles0_.user_account_id as user_acc1_17_0_, roles0_.id as id1_17_0_, roles0_.id as id1_0_1_, roles0_.version as version2_0_1_, roles0_.user_account_id as user_acc1_17_1_, roles0_.company as company1_10_1_, roles0_.link as link2_10_1_, roles0_.statement as statemen3_10_1_, roles0_.company as company1_11_1_, roles0_.link as link2_11_1_, roles0_.statement as statemen3_11_1_, roles0_.clazz_ as clazz_1_ from ( select id, version, user_account_id, company, link, statement, 11 as clazz_ from inventor union all select id, version, user_account_id, company, link, statement, 12 as clazz_ from patron union all select id, version, user_account_id, null as company, null as link, null as statement, 14 as clazz_ from administrator union all select id, version, user_account_id, null as company, null as link, null as statement, 15 as clazz_ from anonymous union all select id, version, user_account_id, null as company, null as link, null as statement, 16 as clazz_ from any union all select id, version, user_account_id, null as company, null as link, null as statement, 17 as clazz_ from authenticated ) roles0_ where roles0_.user_account_id=? 
+2022-06-01 22:15:27.343 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-2] binding parameter [1] as [INTEGER] - [6] 
+2022-06-01 22:15:27.387 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8080-exec-4] View name 'fragments/welcome', model {} 
+2022-06-01 22:15:27.390 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-4] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-06-01 22:15:27.391 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-4] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-06-01 22:15:27.392 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-4] PathInfo: null 
+2022-06-01 22:15:27.395 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-4] RealPath: C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\master\page.jsp 
+2022-06-01 22:15:27.396 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-4] RequestURI: /acme-toolkits-22.7/WEB-INF/views/master/page.jsp 
+2022-06-01 22:15:27.397 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-4] QueryString: null 
+2022-06-01 22:15:27.658 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-4] JspEngine --> /WEB-INF/views/fragments/welcome.jsp 
+2022-06-01 22:15:27.658 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-4] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-06-01 22:15:27.660 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-4] PathInfo: null 
+2022-06-01 22:15:27.662 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-4] RealPath: C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\fragments\welcome.jsp 
+2022-06-01 22:15:27.664 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-4] RequestURI: /acme-toolkits-22.7/WEB-INF/views/master/page.jsp 
+2022-06-01 22:15:27.665 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-4] QueryString: null 
+2022-06-01 22:15:30.023 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-2] DISPATCHING GET /acme-toolkits-22.7/inventor/chimpum/list 
+2022-06-01 22:15:30.023 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-2] Command: list 
+2022-06-01 22:15:30.024 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-2] Model:   {} 
+2022-06-01 22:15:30.024 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-2] Locale:  en 
+2022-06-01 22:15:30.024 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-2] Starting transaction 56be23a0-6f8e-4f30-8b6c-e7adb68dc102 
+2022-06-01 22:15:30.027 DEBUG [org.hibernate.SQL@http-nio-8080-exec-2] select chimpum0_.id as id1_0_, chimpum0_.version as version2_0_, chimpum0_.budget_amount as budget_a1_7_, chimpum0_.budget_currency as budget_c2_7_, chimpum0_.creation_moment as creation3_7_, chimpum0_.description as descript4_7_, chimpum0_.finish_date as finish_d5_7_, chimpum0_.link as link6_7_, chimpum0_.pattern as pattern7_7_, chimpum0_.start_date as start_da8_7_, chimpum0_.title as title9_7_ from chimpum chimpum0_ 
+2022-06-01 22:15:30.075 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-2] Committing transaction 56be23a0-6f8e-4f30-8b6c-e7adb68dc102 
+2022-06-01 22:15:30.077 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-2] Starting transaction 02ab375c-b016-48c8-855d-0563fda938c7 
+2022-06-01 22:15:30.079 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-2] Committing transaction 02ab375c-b016-48c8-855d-0563fda938c7 
+2022-06-01 22:15:30.079 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-2] SERVING GET /acme-toolkits-22.7/inventor/chimpum/list 
+2022-06-01 22:15:30.080 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-2] Result: ModelAndView [view="inventor/chimpum/list"; model={description[1]=A complete chimpum, title[1]=Chimpun1, description[0]=a chimpum, version[1]=0, version[0]=0, title[0]=Chimpun2, id[1]=22, id[0]=21, list$size=2, command=list, principal=acme.framework.entities.Principal@757cc125}] 
+2022-06-01 22:15:30.081 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8080-exec-2] View name 'inventor/chimpum/list', model {description[1]=A complete chimpum, title[1]=Chimpun1, description[0]=a chimpum, version[1]=0, version[0]=0, title[0]=Chimpun2, id[1]=22, id[0]=21, list$size=2, command=list, principal=acme.framework.entities.Principal@757cc125, org.springframework.validation.BindingResult.principal=org.springframework.validation.BeanPropertyBindingResult: 0 errors} 
+2022-06-01 22:15:30.083 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-06-01 22:15:30.084 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-06-01 22:15:30.084 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] PathInfo: null 
+2022-06-01 22:15:30.087 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] RealPath: C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\master\page.jsp 
+2022-06-01 22:15:30.088 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] RequestURI: /acme-toolkits-22.7/WEB-INF/views/master/page.jsp 
+2022-06-01 22:15:30.089 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] QueryString: null 
+2022-06-01 22:15:30.312 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] JspEngine --> /WEB-INF/views/inventor/chimpum/list.jsp 
+2022-06-01 22:15:30.313 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-06-01 22:15:30.314 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] PathInfo: null 
+2022-06-01 22:15:30.316 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] RealPath: C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\inventor\chimpum\list.jsp 
+2022-06-01 22:15:30.316 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] RequestURI: /acme-toolkits-22.7/WEB-INF/views/master/page.jsp 
+2022-06-01 22:15:30.317 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] QueryString: null 
+2022-06-01 22:15:33.476 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-3] DISPATCHING GET /acme-toolkits-22.7/inventor/chimpum/create 
+2022-06-01 22:15:33.476 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-3] Command: create 
+2022-06-01 22:15:33.476 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-3] Model:   {} 
+2022-06-01 22:15:33.476 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-3] Locale:  en 
+2022-06-01 22:15:33.476 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-3] Starting transaction f6cc8d01-e8ef-40d0-993f-c316ba2fe61d 
+2022-06-01 22:15:33.480 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-3] Committing transaction f6cc8d01-e8ef-40d0-993f-c316ba2fe61d 
+2022-06-01 22:15:33.481 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-3] Starting transaction f7935f21-c65e-4d9c-beaa-e5bbf0c84694 
+2022-06-01 22:15:33.482 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-3] Committing transaction f7935f21-c65e-4d9c-beaa-e5bbf0c84694 
+2022-06-01 22:15:33.483 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-3] SERVING GET /acme-toolkits-22.7/inventor/chimpum/create 
+2022-06-01 22:15:33.484 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-3] Result: ModelAndView [view="inventor/chimpum/form"; model={pattern=null, link=null, description=null, finishDate=null, id=0, title=null, version=0, startDate=null, budget=null, command=create, principal=acme.framework.entities.Principal@757cc125}] 
+2022-06-01 22:15:33.485 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8080-exec-3] View name 'inventor/chimpum/form', model {pattern=null, link=null, description=null, finishDate=null, id=0, title=null, version=0, startDate=null, budget=null, command=create, principal=acme.framework.entities.Principal@757cc125, org.springframework.validation.BindingResult.principal=org.springframework.validation.BeanPropertyBindingResult: 0 errors} 
+2022-06-01 22:15:33.487 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-3] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-06-01 22:15:33.488 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-3] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-06-01 22:15:33.488 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-3] PathInfo: null 
+2022-06-01 22:15:33.491 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-3] RealPath: C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\master\page.jsp 
+2022-06-01 22:15:33.492 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-3] RequestURI: /acme-toolkits-22.7/WEB-INF/views/master/page.jsp 
+2022-06-01 22:15:33.493 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-3] QueryString: null 
+2022-06-01 22:15:33.776 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-3] JspEngine --> /WEB-INF/views/inventor/chimpum/form.jsp 
+2022-06-01 22:15:33.777 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-3] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-06-01 22:15:33.778 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-3] PathInfo: null 
+2022-06-01 22:15:33.780 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-3] RealPath: C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\inventor\chimpum\form.jsp 
+2022-06-01 22:15:33.781 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-3] RequestURI: /acme-toolkits-22.7/WEB-INF/views/master/page.jsp 
+2022-06-01 22:15:33.782 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-3] QueryString: null 
+2022-06-01 22:15:55.596 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-10] DISPATCHING POST /acme-toolkits-22.7/inventor/chimpum/create 
+2022-06-01 22:15:55.596 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-10] Command: create 
+2022-06-01 22:15:55.597 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-10] Model:   {id=0, version=0, _csrf=74afc578-1ca6-429c-9ff7-33096354d790, title=pacofiestas, description=pacofiestas, startDate=2030/01/01 03:45, finishDate=2031/01/01 03:46, budget=EUR 123, link=, pattern=ABC-789} 
+2022-06-01 22:15:55.597 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-10] Locale:  en 
+2022-06-01 22:15:55.597 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-10] Starting transaction 9433c240-8a7b-4d8a-832d-0e09377c4616 
+2022-06-01 22:15:55.715 DEBUG [org.hibernate.SQL@http-nio-8080-exec-10] select configdata0_.strong_spam_terms as col_0_0_ from config_data configdata0_ 
+2022-06-01 22:15:55.718 DEBUG [org.hibernate.SQL@http-nio-8080-exec-10] select configdata0_.weak_spam_terms as col_0_0_ from config_data configdata0_ 
+2022-06-01 22:15:55.721 DEBUG [org.hibernate.SQL@http-nio-8080-exec-10] select configdata0_.strong_spam_treshold as col_0_0_ from config_data configdata0_ 
+2022-06-01 22:15:55.724 DEBUG [org.hibernate.SQL@http-nio-8080-exec-10] select configdata0_.weak_spam_treshold as col_0_0_ from config_data configdata0_ 
+2022-06-01 22:15:55.729 DEBUG [org.hibernate.SQL@http-nio-8080-exec-10] select configdata0_.accepted_currencies as col_0_0_ from config_data configdata0_ 
+2022-06-01 22:15:55.732 DEBUG [org.hibernate.SQL@http-nio-8080-exec-10] select chimpum0_.id as id1_0_, chimpum0_.version as version2_0_, chimpum0_.budget_amount as budget_a1_7_, chimpum0_.budget_currency as budget_c2_7_, chimpum0_.creation_moment as creation3_7_, chimpum0_.description as descript4_7_, chimpum0_.finish_date as finish_d5_7_, chimpum0_.link as link6_7_, chimpum0_.pattern as pattern7_7_, chimpum0_.start_date as start_da8_7_, chimpum0_.title as title9_7_ from chimpum chimpum0_ 
+2022-06-01 22:15:55.776 DEBUG [org.hibernate.SQL@http-nio-8080-exec-10] select next_val as id_val from hibernate_sequence for update 
+2022-06-01 22:15:55.777 DEBUG [org.hibernate.SQL@http-nio-8080-exec-10] update hibernate_sequence set next_val= ? where next_val=? 
+2022-06-01 22:15:55.890 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-10] Committing transaction 9433c240-8a7b-4d8a-832d-0e09377c4616 
+2022-06-01 22:15:55.944 DEBUG [org.hibernate.SQL@http-nio-8080-exec-10] insert into chimpum (version, budget_amount, budget_currency, creation_moment, description, finish_date, link, pattern, start_date, title, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2022-06-01 22:15:55.945 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-10] binding parameter [1] as [INTEGER] - [0] 
+2022-06-01 22:15:55.948 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-10] binding parameter [2] as [DOUBLE] - [123.0] 
+2022-06-01 22:15:55.948 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-10] binding parameter [3] as [VARCHAR] - [EUR] 
+2022-06-01 22:15:55.950 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-10] binding parameter [4] as [TIMESTAMP] - [Wed Jun 01 22:15:55 CEST 2022] 
+2022-06-01 22:15:55.954 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-10] binding parameter [5] as [VARCHAR] - [pacofiestas] 
+2022-06-01 22:15:55.954 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-10] binding parameter [6] as [TIMESTAMP] - [Wed Jan 01 03:46:00 CET 2031] 
+2022-06-01 22:15:55.954 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-10] binding parameter [7] as [VARCHAR] - [] 
+2022-06-01 22:15:55.954 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-10] binding parameter [8] as [VARCHAR] - [ABC-789] 
+2022-06-01 22:15:55.955 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-10] binding parameter [9] as [TIMESTAMP] - [Tue Jan 01 03:45:00 CET 2030] 
+2022-06-01 22:15:55.955 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-10] binding parameter [10] as [VARCHAR] - [pacofiestas] 
+2022-06-01 22:15:55.955 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-10] binding parameter [11] as [INTEGER] - [39] 
+2022-06-01 22:15:56.122 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-10] Starting transaction 670aea24-a0c1-4f3f-a612-41e48b093b9d 
+2022-06-01 22:15:56.125 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-10] Committing transaction 670aea24-a0c1-4f3f-a612-41e48b093b9d 
+2022-06-01 22:15:56.127 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-10] SERVING POST /acme-toolkits-22.7/inventor/chimpum/create 
+2022-06-01 22:15:56.128 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-10] Result: ModelAndView [view="redirect:/master/referrer"; model={command=create, principal=acme.framework.entities.Principal@757cc125}] 
+2022-06-01 22:15:56.152 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8080-exec-1] View name 'master/referrer', model {} 
+2022-06-01 22:15:56.156 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-1] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-06-01 22:15:56.157 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-1] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-06-01 22:15:56.158 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-1] PathInfo: null 
+2022-06-01 22:15:56.164 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-1] RealPath: C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\master\page.jsp 
+2022-06-01 22:15:56.164 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-1] RequestURI: /acme-toolkits-22.7/WEB-INF/views/master/page.jsp 
+2022-06-01 22:15:56.165 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-1] QueryString: command=create 
+2022-06-01 22:15:56.420 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-1] JspEngine --> /WEB-INF/views/master/referrer.jsp 
+2022-06-01 22:15:56.420 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-1] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-06-01 22:15:56.421 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-1] PathInfo: null 
+2022-06-01 22:15:56.422 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-1] RealPath: C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\master\referrer.jsp 
+2022-06-01 22:15:56.422 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-1] RequestURI: /acme-toolkits-22.7/WEB-INF/views/master/page.jsp 
+2022-06-01 22:15:56.423 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-1] QueryString: command=create 
+2022-06-01 22:15:57.126 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-5] DISPATCHING GET /acme-toolkits-22.7/inventor/chimpum/list 
+2022-06-01 22:15:57.127 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-5] Command: list 
+2022-06-01 22:15:57.127 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-5] Model:   {} 
+2022-06-01 22:15:57.127 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-5] Locale:  en 
+2022-06-01 22:15:57.127 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-5] Starting transaction a686d161-7f81-4a5b-8f02-7a351e8f6743 
+2022-06-01 22:15:57.130 DEBUG [org.hibernate.SQL@http-nio-8080-exec-5] select chimpum0_.id as id1_0_, chimpum0_.version as version2_0_, chimpum0_.budget_amount as budget_a1_7_, chimpum0_.budget_currency as budget_c2_7_, chimpum0_.creation_moment as creation3_7_, chimpum0_.description as descript4_7_, chimpum0_.finish_date as finish_d5_7_, chimpum0_.link as link6_7_, chimpum0_.pattern as pattern7_7_, chimpum0_.start_date as start_da8_7_, chimpum0_.title as title9_7_ from chimpum chimpum0_ 
+2022-06-01 22:15:57.134 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-5] Committing transaction a686d161-7f81-4a5b-8f02-7a351e8f6743 
+2022-06-01 22:15:57.135 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-5] Starting transaction 2260917e-a597-429a-982c-a1d2214b5474 
+2022-06-01 22:15:57.136 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-5] Committing transaction 2260917e-a597-429a-982c-a1d2214b5474 
+2022-06-01 22:15:57.137 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-5] SERVING GET /acme-toolkits-22.7/inventor/chimpum/list 
+2022-06-01 22:15:57.137 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-5] Result: ModelAndView [view="inventor/chimpum/list"; model={description[1]=A complete chimpum, description[2]=pacofiestas, title[1]=Chimpun1, version[2]=0, description[0]=a chimpum, version[1]=0, title[2]=pacofiestas, list$size=3, version[0]=0, title[0]=Chimpun2, id[1]=22, id[0]=21, id[2]=39, command=list, principal=acme.framework.entities.Principal@757cc125}] 
+2022-06-01 22:15:57.138 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8080-exec-5] View name 'inventor/chimpum/list', model {description[1]=A complete chimpum, description[2]=pacofiestas, title[1]=Chimpun1, version[2]=0, description[0]=a chimpum, version[1]=0, title[2]=pacofiestas, list$size=3, version[0]=0, title[0]=Chimpun2, id[1]=22, id[0]=21, id[2]=39, command=list, principal=acme.framework.entities.Principal@757cc125, org.springframework.validation.BindingResult.principal=org.springframework.validation.BeanPropertyBindingResult: 0 errors} 
+2022-06-01 22:15:57.143 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-5] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-06-01 22:15:57.143 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-5] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-06-01 22:15:57.144 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-5] PathInfo: null 
+2022-06-01 22:15:57.147 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-5] RealPath: C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\master\page.jsp 
+2022-06-01 22:15:57.147 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-5] RequestURI: /acme-toolkits-22.7/WEB-INF/views/master/page.jsp 
+2022-06-01 22:15:57.148 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-5] QueryString: null 
+2022-06-01 22:15:57.409 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-5] JspEngine --> /WEB-INF/views/inventor/chimpum/list.jsp 
+2022-06-01 22:15:57.409 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-5] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-06-01 22:15:57.409 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-5] PathInfo: null 
+2022-06-01 22:15:57.411 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-5] RealPath: C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\inventor\chimpum\list.jsp 
+2022-06-01 22:15:57.411 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-5] RequestURI: /acme-toolkits-22.7/WEB-INF/views/master/page.jsp 
+2022-06-01 22:15:57.411 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-5] QueryString: null 
+2022-06-01 22:15:59.242 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-5] DISPATCHING GET /acme-toolkits-22.7/inventor/chimpum/create 
+2022-06-01 22:15:59.243 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-5] Command: create 
+2022-06-01 22:15:59.243 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-5] Model:   {} 
+2022-06-01 22:15:59.243 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-5] Locale:  en 
+2022-06-01 22:15:59.243 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-5] Starting transaction b4568dcf-e55c-4e11-af06-94194b19c02b 
+2022-06-01 22:15:59.245 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-5] Committing transaction b4568dcf-e55c-4e11-af06-94194b19c02b 
+2022-06-01 22:15:59.246 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-5] Starting transaction 354be543-e2c7-42dd-86d9-6d91bb3739a7 
+2022-06-01 22:15:59.246 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-5] Committing transaction 354be543-e2c7-42dd-86d9-6d91bb3739a7 
+2022-06-01 22:15:59.247 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-5] SERVING GET /acme-toolkits-22.7/inventor/chimpum/create 
+2022-06-01 22:15:59.247 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-5] Result: ModelAndView [view="inventor/chimpum/form"; model={pattern=null, link=null, description=null, finishDate=null, id=0, title=null, version=0, startDate=null, budget=null, command=create, principal=acme.framework.entities.Principal@757cc125}] 
+2022-06-01 22:15:59.248 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8080-exec-5] View name 'inventor/chimpum/form', model {pattern=null, link=null, description=null, finishDate=null, id=0, title=null, version=0, startDate=null, budget=null, command=create, principal=acme.framework.entities.Principal@757cc125, org.springframework.validation.BindingResult.principal=org.springframework.validation.BeanPropertyBindingResult: 0 errors} 
+2022-06-01 22:15:59.249 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-5] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-06-01 22:15:59.250 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-5] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-06-01 22:15:59.250 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-5] PathInfo: null 
+2022-06-01 22:15:59.251 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-5] RealPath: C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\master\page.jsp 
+2022-06-01 22:15:59.251 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-5] RequestURI: /acme-toolkits-22.7/WEB-INF/views/master/page.jsp 
+2022-06-01 22:15:59.251 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-5] QueryString: null 
+2022-06-01 22:15:59.494 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-5] JspEngine --> /WEB-INF/views/inventor/chimpum/form.jsp 
+2022-06-01 22:15:59.494 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-5] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-06-01 22:15:59.495 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-5] PathInfo: null 
+2022-06-01 22:15:59.496 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-5] RealPath: C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\inventor\chimpum\form.jsp 
+2022-06-01 22:15:59.497 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-5] RequestURI: /acme-toolkits-22.7/WEB-INF/views/master/page.jsp 
+2022-06-01 22:15:59.498 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-5] QueryString: null 
+2022-06-01 22:16:10.619 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-7] DISPATCHING POST /acme-toolkits-22.7/inventor/chimpum/create 
+2022-06-01 22:16:10.619 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-7] Command: create 
+2022-06-01 22:16:10.619 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-7] Model:   {id=0, version=0, _csrf=74afc578-1ca6-429c-9ff7-33096354d790, title=pacofiestas, description=pacofiestas, startDate=2030/01/01 03:45, finishDate=2031/01/01 03:46, budget=EUR 123, link=, pattern=ABC-789} 
+2022-06-01 22:16:10.620 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-7] Locale:  en 
+2022-06-01 22:16:10.620 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-7] Starting transaction 7ceddf61-a14c-4fce-89f6-7b5258c8f494 
+2022-06-01 22:16:10.625 DEBUG [org.hibernate.SQL@http-nio-8080-exec-7] select configdata0_.strong_spam_terms as col_0_0_ from config_data configdata0_ 
+2022-06-01 22:16:10.627 DEBUG [org.hibernate.SQL@http-nio-8080-exec-7] select configdata0_.weak_spam_terms as col_0_0_ from config_data configdata0_ 
+2022-06-01 22:16:10.629 DEBUG [org.hibernate.SQL@http-nio-8080-exec-7] select configdata0_.strong_spam_treshold as col_0_0_ from config_data configdata0_ 
+2022-06-01 22:16:10.631 DEBUG [org.hibernate.SQL@http-nio-8080-exec-7] select configdata0_.weak_spam_treshold as col_0_0_ from config_data configdata0_ 
+2022-06-01 22:16:10.633 DEBUG [org.hibernate.SQL@http-nio-8080-exec-7] select configdata0_.accepted_currencies as col_0_0_ from config_data configdata0_ 
+2022-06-01 22:16:10.636 DEBUG [org.hibernate.SQL@http-nio-8080-exec-7] select chimpum0_.id as id1_0_, chimpum0_.version as version2_0_, chimpum0_.budget_amount as budget_a1_7_, chimpum0_.budget_currency as budget_c2_7_, chimpum0_.creation_moment as creation3_7_, chimpum0_.description as descript4_7_, chimpum0_.finish_date as finish_d5_7_, chimpum0_.link as link6_7_, chimpum0_.pattern as pattern7_7_, chimpum0_.start_date as start_da8_7_, chimpum0_.title as title9_7_ from chimpum chimpum0_ 
+2022-06-01 22:16:10.641 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-7] Rolling transaction 7ceddf61-a14c-4fce-89f6-7b5258c8f494 back 
+2022-06-01 22:16:10.642 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-7] Starting transaction e6818c41-9d96-4579-8a02-51a7eb47e945 
+2022-06-01 22:16:10.643 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-7] Committing transaction e6818c41-9d96-4579-8a02-51a7eb47e945 
+2022-06-01 22:16:10.644 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-7] SERVING POST /acme-toolkits-22.7/inventor/chimpum/create 
+2022-06-01 22:16:10.647 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-7] Result: ModelAndView [view="inventor/chimpum/form"; model={pattern=ABC-789, link=, description=pacofiestas, finishDate=Wed Jan 01 03:46:00 CET 2031, id=0, title=pacofiestas, version=0, startDate=Tue Jan 01 03:45:00 CET 2030, budget=<<EUR 123.00>>, pattern$error=The code introduced already exists., command=create, principal=acme.framework.entities.Principal@757cc125}] 
+2022-06-01 22:16:10.648 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8080-exec-7] View name 'inventor/chimpum/form', model {pattern=ABC-789, link=, description=pacofiestas, finishDate=Wed Jan 01 03:46:00 CET 2031, id=0, title=pacofiestas, version=0, startDate=Tue Jan 01 03:45:00 CET 2030, budget=<<EUR 123.00>>, pattern$error=The code introduced already exists., command=create, principal=acme.framework.entities.Principal@757cc125, org.springframework.validation.BindingResult.budget=org.springframework.validation.BeanPropertyBindingResult: 0 errors, org.springframework.validation.BindingResult.principal=org.springframework.validation.BeanPropertyBindingResult: 0 errors} 
+2022-06-01 22:16:10.649 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-7] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-06-01 22:16:10.650 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-7] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-06-01 22:16:10.651 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-7] PathInfo: null 
+2022-06-01 22:16:10.653 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-7] RealPath: C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\master\page.jsp 
+2022-06-01 22:16:10.655 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-7] RequestURI: /acme-toolkits-22.7/WEB-INF/views/master/page.jsp 
+2022-06-01 22:16:10.657 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-7] QueryString: null 
+2022-06-01 22:16:10.856 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-7] JspEngine --> /WEB-INF/views/inventor/chimpum/form.jsp 
+2022-06-01 22:16:10.857 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-7] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-06-01 22:16:10.857 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-7] PathInfo: null 
+2022-06-01 22:16:10.858 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-7] RealPath: C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\inventor\chimpum\form.jsp 
+2022-06-01 22:16:10.859 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-7] RequestURI: /acme-toolkits-22.7/WEB-INF/views/master/page.jsp 
+2022-06-01 22:16:10.860 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-7] QueryString: null 
+2022-06-01 22:16:19.124 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-9] DISPATCHING POST /acme-toolkits-22.7/inventor/chimpum/create 
+2022-06-01 22:16:19.125 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-9] Command: create 
+2022-06-01 22:16:19.125 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-9] Model:   {id=0, version=0, _csrf=74afc578-1ca6-429c-9ff7-33096354d790, title=pacofiestas, description=pacofiestas, startDate=2030/01/01 03:45, finishDate=2031/01/01 03:46, budget=EUR 123.00, link=, pattern=ABC-135} 
+2022-06-01 22:16:19.125 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-9] Locale:  en 
+2022-06-01 22:16:19.125 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-9] Starting transaction f3ab1fc6-faa1-44b7-b080-4ba1c9d2d2af 
+2022-06-01 22:16:19.130 DEBUG [org.hibernate.SQL@http-nio-8080-exec-9] select configdata0_.strong_spam_terms as col_0_0_ from config_data configdata0_ 
+2022-06-01 22:16:19.132 DEBUG [org.hibernate.SQL@http-nio-8080-exec-9] select configdata0_.weak_spam_terms as col_0_0_ from config_data configdata0_ 
+2022-06-01 22:16:19.148 DEBUG [org.hibernate.SQL@http-nio-8080-exec-9] select configdata0_.strong_spam_treshold as col_0_0_ from config_data configdata0_ 
+2022-06-01 22:16:19.150 DEBUG [org.hibernate.SQL@http-nio-8080-exec-9] select configdata0_.weak_spam_treshold as col_0_0_ from config_data configdata0_ 
+2022-06-01 22:16:19.152 DEBUG [org.hibernate.SQL@http-nio-8080-exec-9] select configdata0_.accepted_currencies as col_0_0_ from config_data configdata0_ 
+2022-06-01 22:16:19.155 DEBUG [org.hibernate.SQL@http-nio-8080-exec-9] select chimpum0_.id as id1_0_, chimpum0_.version as version2_0_, chimpum0_.budget_amount as budget_a1_7_, chimpum0_.budget_currency as budget_c2_7_, chimpum0_.creation_moment as creation3_7_, chimpum0_.description as descript4_7_, chimpum0_.finish_date as finish_d5_7_, chimpum0_.link as link6_7_, chimpum0_.pattern as pattern7_7_, chimpum0_.start_date as start_da8_7_, chimpum0_.title as title9_7_ from chimpum chimpum0_ 
+2022-06-01 22:16:19.158 DEBUG [org.hibernate.SQL@http-nio-8080-exec-9] select next_val as id_val from hibernate_sequence for update 
+2022-06-01 22:16:19.159 DEBUG [org.hibernate.SQL@http-nio-8080-exec-9] update hibernate_sequence set next_val= ? where next_val=? 
+2022-06-01 22:16:19.259 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-9] Committing transaction f3ab1fc6-faa1-44b7-b080-4ba1c9d2d2af 
+2022-06-01 22:16:19.267 DEBUG [org.hibernate.SQL@http-nio-8080-exec-9] insert into chimpum (version, budget_amount, budget_currency, creation_moment, description, finish_date, link, pattern, start_date, title, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2022-06-01 22:16:19.271 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-9] binding parameter [1] as [INTEGER] - [0] 
+2022-06-01 22:16:19.272 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-9] binding parameter [2] as [DOUBLE] - [123.0] 
+2022-06-01 22:16:19.272 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-9] binding parameter [3] as [VARCHAR] - [EUR] 
+2022-06-01 22:16:19.273 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-9] binding parameter [4] as [TIMESTAMP] - [Wed Jun 01 22:16:19 CEST 2022] 
+2022-06-01 22:16:19.275 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-9] binding parameter [5] as [VARCHAR] - [pacofiestas] 
+2022-06-01 22:16:19.275 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-9] binding parameter [6] as [TIMESTAMP] - [Wed Jan 01 03:46:00 CET 2031] 
+2022-06-01 22:16:19.277 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-9] binding parameter [7] as [VARCHAR] - [] 
+2022-06-01 22:16:19.278 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-9] binding parameter [8] as [VARCHAR] - [ABC-135] 
+2022-06-01 22:16:19.279 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-9] binding parameter [9] as [TIMESTAMP] - [Tue Jan 01 03:45:00 CET 2030] 
+2022-06-01 22:16:19.280 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-9] binding parameter [10] as [VARCHAR] - [pacofiestas] 
+2022-06-01 22:16:19.280 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-9] binding parameter [11] as [INTEGER] - [40] 
+2022-06-01 22:16:19.422 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-9] Starting transaction 12db2179-e518-49c8-bd1c-d7d3e38a0e53 
+2022-06-01 22:16:19.426 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-9] Committing transaction 12db2179-e518-49c8-bd1c-d7d3e38a0e53 
+2022-06-01 22:16:19.428 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-9] SERVING POST /acme-toolkits-22.7/inventor/chimpum/create 
+2022-06-01 22:16:19.429 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-9] Result: ModelAndView [view="redirect:/master/referrer"; model={command=create, principal=acme.framework.entities.Principal@757cc125}] 
+2022-06-01 22:16:19.445 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8080-exec-7] View name 'master/referrer', model {} 
+2022-06-01 22:16:19.449 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-7] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-06-01 22:16:19.450 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-7] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-06-01 22:16:19.451 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-7] PathInfo: null 
+2022-06-01 22:16:19.456 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-7] RealPath: C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\master\page.jsp 
+2022-06-01 22:16:19.458 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-7] RequestURI: /acme-toolkits-22.7/WEB-INF/views/master/page.jsp 
+2022-06-01 22:16:19.459 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-7] QueryString: command=create 
+2022-06-01 22:16:19.899 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-7] JspEngine --> /WEB-INF/views/master/referrer.jsp 
+2022-06-01 22:16:19.901 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-7] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-06-01 22:16:19.905 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-7] PathInfo: null 
+2022-06-01 22:16:19.913 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-7] RealPath: C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\master\referrer.jsp 
+2022-06-01 22:16:19.915 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-7] RequestURI: /acme-toolkits-22.7/WEB-INF/views/master/page.jsp 
+2022-06-01 22:16:19.918 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-7] QueryString: command=create 
+2022-06-01 22:16:20.396 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-3] DISPATCHING GET /acme-toolkits-22.7/inventor/chimpum/list 
+2022-06-01 22:16:20.396 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-3] Command: list 
+2022-06-01 22:16:20.396 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-3] Model:   {} 
+2022-06-01 22:16:20.396 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-3] Locale:  en 
+2022-06-01 22:16:20.398 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-3] Starting transaction 48de410a-bb52-4ed3-a708-7abdebb4ade5 
+2022-06-01 22:16:20.399 DEBUG [org.hibernate.SQL@http-nio-8080-exec-3] select chimpum0_.id as id1_0_, chimpum0_.version as version2_0_, chimpum0_.budget_amount as budget_a1_7_, chimpum0_.budget_currency as budget_c2_7_, chimpum0_.creation_moment as creation3_7_, chimpum0_.description as descript4_7_, chimpum0_.finish_date as finish_d5_7_, chimpum0_.link as link6_7_, chimpum0_.pattern as pattern7_7_, chimpum0_.start_date as start_da8_7_, chimpum0_.title as title9_7_ from chimpum chimpum0_ 
+2022-06-01 22:16:20.407 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-3] Committing transaction 48de410a-bb52-4ed3-a708-7abdebb4ade5 
+2022-06-01 22:16:20.413 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-3] Starting transaction 2b546e88-17c6-4d11-9a4a-be8083b18bd1 
+2022-06-01 22:16:20.414 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-3] Committing transaction 2b546e88-17c6-4d11-9a4a-be8083b18bd1 
+2022-06-01 22:16:20.417 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-3] SERVING GET /acme-toolkits-22.7/inventor/chimpum/list 
+2022-06-01 22:16:20.419 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-3] Result: ModelAndView [view="inventor/chimpum/list"; model={description[1]=A complete chimpum, description[2]=pacofiestas, description[3]=pacofiestas, title[3]=pacofiestas, version[3]=0, title[1]=Chimpun1, version[2]=0, description[0]=a chimpum, version[1]=0, title[2]=pacofiestas, list$size=4, version[0]=0, title[0]=Chimpun2, id[1]=22, id[0]=21, id[3]=40, id[2]=39, command=list, principal=acme.framework.entities.Principal@757cc125}] 
+2022-06-01 22:16:20.419 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8080-exec-3] View name 'inventor/chimpum/list', model {description[1]=A complete chimpum, description[2]=pacofiestas, description[3]=pacofiestas, title[3]=pacofiestas, version[3]=0, title[1]=Chimpun1, version[2]=0, description[0]=a chimpum, version[1]=0, title[2]=pacofiestas, list$size=4, version[0]=0, title[0]=Chimpun2, id[1]=22, id[0]=21, id[3]=40, id[2]=39, command=list, principal=acme.framework.entities.Principal@757cc125, org.springframework.validation.BindingResult.principal=org.springframework.validation.BeanPropertyBindingResult: 0 errors} 
+2022-06-01 22:16:20.420 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-3] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-06-01 22:16:20.421 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-3] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-06-01 22:16:20.422 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-3] PathInfo: null 
+2022-06-01 22:16:20.422 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-3] RealPath: C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\master\page.jsp 
+2022-06-01 22:16:20.422 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-3] RequestURI: /acme-toolkits-22.7/WEB-INF/views/master/page.jsp 
+2022-06-01 22:16:20.423 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-3] QueryString: null 
+2022-06-01 22:16:20.665 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-3] JspEngine --> /WEB-INF/views/inventor/chimpum/list.jsp 
+2022-06-01 22:16:20.666 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-3] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-06-01 22:16:20.666 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-3] PathInfo: null 
+2022-06-01 22:16:20.668 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-3] RealPath: C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\inventor\chimpum\list.jsp 
+2022-06-01 22:16:20.670 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-3] RequestURI: /acme-toolkits-22.7/WEB-INF/views/master/page.jsp 
+2022-06-01 22:16:20.671 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-3] QueryString: null 
+2022-06-01 22:16:23.823 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-3] DISPATCHING GET /acme-toolkits-22.7/inventor/chimpum/show 
+2022-06-01 22:16:23.823 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-3] Command: show 
+2022-06-01 22:16:23.823 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-3] Model:   {id=39} 
+2022-06-01 22:16:23.824 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-3] Locale:  en 
+2022-06-01 22:16:23.824 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-3] Starting transaction 87ef2b2e-dfab-43c4-bc19-b48c5e6c4168 
+2022-06-01 22:16:23.826 DEBUG [org.hibernate.SQL@http-nio-8080-exec-3] select chimpum0_.id as id1_0_, chimpum0_.version as version2_0_, chimpum0_.budget_amount as budget_a1_7_, chimpum0_.budget_currency as budget_c2_7_, chimpum0_.creation_moment as creation3_7_, chimpum0_.description as descript4_7_, chimpum0_.finish_date as finish_d5_7_, chimpum0_.link as link6_7_, chimpum0_.pattern as pattern7_7_, chimpum0_.start_date as start_da8_7_, chimpum0_.title as title9_7_ from chimpum chimpum0_ where chimpum0_.id=? 
+2022-06-01 22:16:23.827 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-3] binding parameter [1] as [INTEGER] - [39] 
+2022-06-01 22:16:23.832 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-3] Committing transaction 87ef2b2e-dfab-43c4-bc19-b48c5e6c4168 
+2022-06-01 22:16:23.834 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-3] Starting transaction 3287faef-3165-4d80-bd91-23d48e585d0b 
+2022-06-01 22:16:23.840 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-3] Committing transaction 3287faef-3165-4d80-bd91-23d48e585d0b 
+2022-06-01 22:16:23.841 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-3] SERVING GET /acme-toolkits-22.7/inventor/chimpum/show 
+2022-06-01 22:16:23.841 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-3] Result: ModelAndView [view="inventor/chimpum/form"; model={code=ABC-789-01/06/22, creationMoment=2022-06-01 22:15:55.0, pattern=ABC-789, link=, description=pacofiestas, finishDate=2031-01-01 03:46:00.0, id=39, title=pacofiestas, version=0, startDate=2030-01-01 03:45:00.0, budget=<<EUR 123.00>>, command=show, principal=acme.framework.entities.Principal@757cc125}] 
+2022-06-01 22:16:23.842 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8080-exec-3] View name 'inventor/chimpum/form', model {code=ABC-789-01/06/22, creationMoment=2022-06-01 22:15:55.0, pattern=ABC-789, link=, description=pacofiestas, finishDate=2031-01-01 03:46:00.0, id=39, title=pacofiestas, version=0, startDate=2030-01-01 03:45:00.0, budget=<<EUR 123.00>>, command=show, principal=acme.framework.entities.Principal@757cc125, org.springframework.validation.BindingResult.budget=org.springframework.validation.BeanPropertyBindingResult: 0 errors, org.springframework.validation.BindingResult.principal=org.springframework.validation.BeanPropertyBindingResult: 0 errors} 
+2022-06-01 22:16:23.844 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-3] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-06-01 22:16:23.845 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-3] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-06-01 22:16:23.845 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-3] PathInfo: null 
+2022-06-01 22:16:23.846 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-3] RealPath: C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\master\page.jsp 
+2022-06-01 22:16:23.847 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-3] RequestURI: /acme-toolkits-22.7/WEB-INF/views/master/page.jsp 
+2022-06-01 22:16:23.848 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-3] QueryString: id=39 
+2022-06-01 22:16:24.052 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-3] JspEngine --> /WEB-INF/views/inventor/chimpum/form.jsp 
+2022-06-01 22:16:24.052 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-3] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-06-01 22:16:24.053 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-3] PathInfo: null 
+2022-06-01 22:16:24.055 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-3] RealPath: C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\inventor\chimpum\form.jsp 
+2022-06-01 22:16:24.056 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-3] RequestURI: /acme-toolkits-22.7/WEB-INF/views/master/page.jsp 
+2022-06-01 22:16:24.057 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-3] QueryString: id=39 
+2022-06-01 22:38:51.723 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-2] DISPATCHING GET /acme-toolkits-22.7/inventor/chimpum/list 
+2022-06-01 22:38:51.724 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-2] Command: list 
+2022-06-01 22:38:51.724 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-2] Model:   {} 
+2022-06-01 22:38:51.724 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-2] Locale:  en 
+2022-06-01 22:38:51.724 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-2] Starting transaction 35b5af7f-05ca-4b92-8e55-75d14e4c2572 
+2022-06-01 22:38:51.727 DEBUG [org.hibernate.SQL@http-nio-8080-exec-2] select chimpum0_.id as id1_0_, chimpum0_.version as version2_0_, chimpum0_.budget_amount as budget_a1_7_, chimpum0_.budget_currency as budget_c2_7_, chimpum0_.creation_moment as creation3_7_, chimpum0_.description as descript4_7_, chimpum0_.finish_date as finish_d5_7_, chimpum0_.link as link6_7_, chimpum0_.pattern as pattern7_7_, chimpum0_.start_date as start_da8_7_, chimpum0_.title as title9_7_ from chimpum chimpum0_ 
+2022-06-01 22:38:51.732 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-2] Committing transaction 35b5af7f-05ca-4b92-8e55-75d14e4c2572 
+2022-06-01 22:38:51.733 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-2] Starting transaction d5fc2bac-29b6-4c15-962f-78df5c4f3be2 
+2022-06-01 22:38:51.733 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-2] Committing transaction d5fc2bac-29b6-4c15-962f-78df5c4f3be2 
+2022-06-01 22:38:51.734 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-2] SERVING GET /acme-toolkits-22.7/inventor/chimpum/list 
+2022-06-01 22:38:51.734 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-2] Result: ModelAndView [view="inventor/chimpum/list"; model={description[1]=A complete chimpum, description[2]=pacofiestas, description[3]=pacofiestas, title[3]=pacofiestas, version[3]=0, title[1]=Chimpun1, version[2]=0, description[0]=a chimpum, version[1]=0, title[2]=pacofiestas, list$size=4, version[0]=0, title[0]=Chimpun2, id[1]=22, id[0]=21, id[3]=40, id[2]=39, command=list, principal=acme.framework.entities.Principal@757cc125}] 
+2022-06-01 22:38:51.735 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8080-exec-2] View name 'inventor/chimpum/list', model {description[1]=A complete chimpum, description[2]=pacofiestas, description[3]=pacofiestas, title[3]=pacofiestas, version[3]=0, title[1]=Chimpun1, version[2]=0, description[0]=a chimpum, version[1]=0, title[2]=pacofiestas, list$size=4, version[0]=0, title[0]=Chimpun2, id[1]=22, id[0]=21, id[3]=40, id[2]=39, command=list, principal=acme.framework.entities.Principal@757cc125, org.springframework.validation.BindingResult.principal=org.springframework.validation.BeanPropertyBindingResult: 0 errors} 
+2022-06-01 22:38:51.736 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-06-01 22:38:51.737 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-06-01 22:38:51.737 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] PathInfo: null 
+2022-06-01 22:38:51.741 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] RealPath: C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\master\page.jsp 
+2022-06-01 22:38:51.742 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] RequestURI: /acme-toolkits-22.7/WEB-INF/views/master/page.jsp 
+2022-06-01 22:38:51.743 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] QueryString: null 
+2022-06-01 22:38:51.960 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] JspEngine --> /WEB-INF/views/inventor/chimpum/list.jsp 
+2022-06-01 22:38:51.961 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-06-01 22:38:51.961 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] PathInfo: null 
+2022-06-01 22:38:51.964 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] RealPath: C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\inventor\chimpum\list.jsp 
+2022-06-01 22:38:51.964 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] RequestURI: /acme-toolkits-22.7/WEB-INF/views/master/page.jsp 
+2022-06-01 22:38:51.965 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] QueryString: null 
+2022-06-01 22:38:53.592 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-2] DISPATCHING GET /acme-toolkits-22.7/inventor/chimpum/show 
+2022-06-01 22:38:53.592 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-2] Command: show 
+2022-06-01 22:38:53.592 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-2] Model:   {id=22} 
+2022-06-01 22:38:53.592 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-2] Locale:  en 
+2022-06-01 22:38:53.592 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-2] Starting transaction fc1fa162-3c9b-4b41-b431-1314ffb32db2 
+2022-06-01 22:38:53.595 DEBUG [org.hibernate.SQL@http-nio-8080-exec-2] select chimpum0_.id as id1_0_, chimpum0_.version as version2_0_, chimpum0_.budget_amount as budget_a1_7_, chimpum0_.budget_currency as budget_c2_7_, chimpum0_.creation_moment as creation3_7_, chimpum0_.description as descript4_7_, chimpum0_.finish_date as finish_d5_7_, chimpum0_.link as link6_7_, chimpum0_.pattern as pattern7_7_, chimpum0_.start_date as start_da8_7_, chimpum0_.title as title9_7_ from chimpum chimpum0_ where chimpum0_.id=? 
+2022-06-01 22:38:53.595 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-2] binding parameter [1] as [INTEGER] - [22] 
+2022-06-01 22:38:53.598 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-2] Committing transaction fc1fa162-3c9b-4b41-b431-1314ffb32db2 
+2022-06-01 22:38:53.599 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-2] Starting transaction c55ac02a-3c7e-4edc-a06d-3ca0a5a0ad22 
+2022-06-01 22:38:53.600 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-2] Committing transaction c55ac02a-3c7e-4edc-a06d-3ca0a5a0ad22 
+2022-06-01 22:38:53.601 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-2] SERVING GET /acme-toolkits-22.7/inventor/chimpum/show 
+2022-06-01 22:38:53.601 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-2] Result: ModelAndView [view="inventor/chimpum/form"; model={code=ABC-123-01/12/21, creationMoment=2021-12-01 12:00:00.0, pattern=ABC-123, link=https://www.tool.com, description=A complete chimpum, finishDate=2022-12-31 15:00:00.0, id=22, title=Chimpun1, version=0, startDate=2021-12-31 12:00:00.0, budget=<<EUR 250.00>>, command=show, principal=acme.framework.entities.Principal@757cc125}] 
+2022-06-01 22:38:53.602 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8080-exec-2] View name 'inventor/chimpum/form', model {code=ABC-123-01/12/21, creationMoment=2021-12-01 12:00:00.0, pattern=ABC-123, link=https://www.tool.com, description=A complete chimpum, finishDate=2022-12-31 15:00:00.0, id=22, title=Chimpun1, version=0, startDate=2021-12-31 12:00:00.0, budget=<<EUR 250.00>>, command=show, principal=acme.framework.entities.Principal@757cc125, org.springframework.validation.BindingResult.budget=org.springframework.validation.BeanPropertyBindingResult: 0 errors, org.springframework.validation.BindingResult.principal=org.springframework.validation.BeanPropertyBindingResult: 0 errors} 
+2022-06-01 22:38:53.604 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-06-01 22:38:53.605 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-06-01 22:38:53.605 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] PathInfo: null 
+2022-06-01 22:38:53.605 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] RealPath: C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\master\page.jsp 
+2022-06-01 22:38:53.606 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] RequestURI: /acme-toolkits-22.7/WEB-INF/views/master/page.jsp 
+2022-06-01 22:38:53.607 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] QueryString: id=22 
+2022-06-01 22:38:53.794 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] JspEngine --> /WEB-INF/views/inventor/chimpum/form.jsp 
+2022-06-01 22:38:53.795 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-06-01 22:38:53.795 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] PathInfo: null 
+2022-06-01 22:38:53.797 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] RealPath: C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\inventor\chimpum\form.jsp 
+2022-06-01 22:38:53.797 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] RequestURI: /acme-toolkits-22.7/WEB-INF/views/master/page.jsp 
+2022-06-01 22:38:53.798 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-2] QueryString: id=22 
+2022-06-01 22:39:08.610 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-4] DISPATCHING GET /acme-toolkits-22.7/inventor/chimpum/list 
+2022-06-01 22:39:08.610 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-4] Command: list 
+2022-06-01 22:39:08.610 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-4] Model:   {} 
+2022-06-01 22:39:08.610 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-4] Locale:  en 
+2022-06-01 22:39:08.610 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-4] Starting transaction 4a11d60f-7b42-46c7-acb2-d75e73c3dfb0 
+2022-06-01 22:39:08.612 DEBUG [org.hibernate.SQL@http-nio-8080-exec-4] select chimpum0_.id as id1_0_, chimpum0_.version as version2_0_, chimpum0_.budget_amount as budget_a1_7_, chimpum0_.budget_currency as budget_c2_7_, chimpum0_.creation_moment as creation3_7_, chimpum0_.description as descript4_7_, chimpum0_.finish_date as finish_d5_7_, chimpum0_.link as link6_7_, chimpum0_.pattern as pattern7_7_, chimpum0_.start_date as start_da8_7_, chimpum0_.title as title9_7_ from chimpum chimpum0_ 
+2022-06-01 22:39:08.616 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-4] Committing transaction 4a11d60f-7b42-46c7-acb2-d75e73c3dfb0 
+2022-06-01 22:39:08.617 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-4] Starting transaction 4daa1266-b882-429d-9779-85e932d5bcd9 
+2022-06-01 22:39:08.618 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-4] Committing transaction 4daa1266-b882-429d-9779-85e932d5bcd9 
+2022-06-01 22:39:08.619 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-4] SERVING GET /acme-toolkits-22.7/inventor/chimpum/list 
+2022-06-01 22:39:08.619 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-4] Result: ModelAndView [view="inventor/chimpum/list"; model={description[1]=A complete chimpum, description[2]=pacofiestas, description[3]=pacofiestas, title[3]=pacofiestas, version[3]=0, title[1]=Chimpun1, version[2]=0, description[0]=a chimpum, version[1]=0, title[2]=pacofiestas, list$size=4, version[0]=0, title[0]=Chimpun2, id[1]=22, id[0]=21, id[3]=40, id[2]=39, command=list, principal=acme.framework.entities.Principal@757cc125}] 
+2022-06-01 22:39:08.620 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8080-exec-4] View name 'inventor/chimpum/list', model {description[1]=A complete chimpum, description[2]=pacofiestas, description[3]=pacofiestas, title[3]=pacofiestas, version[3]=0, title[1]=Chimpun1, version[2]=0, description[0]=a chimpum, version[1]=0, title[2]=pacofiestas, list$size=4, version[0]=0, title[0]=Chimpun2, id[1]=22, id[0]=21, id[3]=40, id[2]=39, command=list, principal=acme.framework.entities.Principal@757cc125, org.springframework.validation.BindingResult.principal=org.springframework.validation.BeanPropertyBindingResult: 0 errors} 
+2022-06-01 22:39:08.621 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-4] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-06-01 22:39:08.622 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-4] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-06-01 22:39:08.623 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-4] PathInfo: null 
+2022-06-01 22:39:08.624 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-4] RealPath: C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\master\page.jsp 
+2022-06-01 22:39:08.625 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-4] RequestURI: /acme-toolkits-22.7/WEB-INF/views/master/page.jsp 
+2022-06-01 22:39:08.626 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-4] QueryString: null 
+2022-06-01 22:39:08.814 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-4] JspEngine --> /WEB-INF/views/inventor/chimpum/list.jsp 
+2022-06-01 22:39:08.814 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-4] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-06-01 22:39:08.815 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-4] PathInfo: null 
+2022-06-01 22:39:08.816 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-4] RealPath: C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\inventor\chimpum\list.jsp 
+2022-06-01 22:39:08.816 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-4] RequestURI: /acme-toolkits-22.7/WEB-INF/views/master/page.jsp 
+2022-06-01 22:39:08.817 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-4] QueryString: null 
+2022-06-01 22:39:11.243 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-6] DISPATCHING GET /acme-toolkits-22.7/inventor/chimpum/show 
+2022-06-01 22:39:11.243 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-6] Command: show 
+2022-06-01 22:39:11.244 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-6] Model:   {id=21} 
+2022-06-01 22:39:11.244 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-6] Locale:  en 
+2022-06-01 22:39:11.244 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-6] Starting transaction d6d55ba4-5715-43e1-88cd-815657bbda38 
+2022-06-01 22:39:11.246 DEBUG [org.hibernate.SQL@http-nio-8080-exec-6] select chimpum0_.id as id1_0_, chimpum0_.version as version2_0_, chimpum0_.budget_amount as budget_a1_7_, chimpum0_.budget_currency as budget_c2_7_, chimpum0_.creation_moment as creation3_7_, chimpum0_.description as descript4_7_, chimpum0_.finish_date as finish_d5_7_, chimpum0_.link as link6_7_, chimpum0_.pattern as pattern7_7_, chimpum0_.start_date as start_da8_7_, chimpum0_.title as title9_7_ from chimpum chimpum0_ where chimpum0_.id=? 
+2022-06-01 22:39:11.246 TRACE [org.hibernate.type.descriptor.sql.BasicBinder@http-nio-8080-exec-6] binding parameter [1] as [INTEGER] - [21] 
+2022-06-01 22:39:11.249 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-6] Committing transaction d6d55ba4-5715-43e1-88cd-815657bbda38 
+2022-06-01 22:39:11.250 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-6] Starting transaction 7e6ca0ee-d026-44a8-bab9-b6d559e0d2fd 
+2022-06-01 22:39:11.251 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-6] Committing transaction 7e6ca0ee-d026-44a8-bab9-b6d559e0d2fd 
+2022-06-01 22:39:11.252 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-6] SERVING GET /acme-toolkits-22.7/inventor/chimpum/show 
+2022-06-01 22:39:11.252 DEBUG [acme.framework.controllers.AbstractController@http-nio-8080-exec-6] Result: ModelAndView [view="inventor/chimpum/form"; model={code=ABC-456-01/12/21, creationMoment=2021-12-01 12:00:00.0, pattern=ABC-456, link=null, description=a chimpum, finishDate=2021-12-30 22:47:00.0, id=21, title=Chimpun2, version=0, startDate=2020-12-31 15:36:00.0, budget=<<EUR 50.00>>, command=show, principal=acme.framework.entities.Principal@757cc125}] 
+2022-06-01 22:39:11.254 DEBUG [acme.framework.components.tiles.DynamicTilesView@http-nio-8080-exec-6] View name 'inventor/chimpum/form', model {code=ABC-456-01/12/21, creationMoment=2021-12-01 12:00:00.0, pattern=ABC-456, link=null, description=a chimpum, finishDate=2021-12-30 22:47:00.0, id=21, title=Chimpun2, version=0, startDate=2020-12-31 15:36:00.0, budget=<<EUR 50.00>>, command=show, principal=acme.framework.entities.Principal@757cc125, org.springframework.validation.BindingResult.budget=org.springframework.validation.BeanPropertyBindingResult: 0 errors, org.springframework.validation.BindingResult.principal=org.springframework.validation.BeanPropertyBindingResult: 0 errors} 
+2022-06-01 22:39:11.255 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-6] JspEngine --> /WEB-INF/views/master/page.jsp 
+2022-06-01 22:39:11.256 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-6] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-06-01 22:39:11.257 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-6] PathInfo: null 
+2022-06-01 22:39:11.257 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-6] RealPath: C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\master\page.jsp 
+2022-06-01 22:39:11.257 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-6] RequestURI: /acme-toolkits-22.7/WEB-INF/views/master/page.jsp 
+2022-06-01 22:39:11.257 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-6] QueryString: id=21 
+2022-06-01 22:39:11.462 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-6] JspEngine --> /WEB-INF/views/inventor/chimpum/form.jsp 
+2022-06-01 22:39:11.462 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-6] ServletPath: /WEB-INF/views/master/page.jsp 
+2022-06-01 22:39:11.463 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-6] PathInfo: null 
+2022-06-01 22:39:11.464 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-6] RealPath: C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable\target\classes\WEB-INF\views\inventor\chimpum\form.jsp 
+2022-06-01 22:39:11.465 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-6] RequestURI: /acme-toolkits-22.7/WEB-INF/views/master/page.jsp 
+2022-06-01 22:39:11.465 DEBUG [org.apache.jasper.servlet.JspServlet@http-nio-8080-exec-6] QueryString: id=21 
