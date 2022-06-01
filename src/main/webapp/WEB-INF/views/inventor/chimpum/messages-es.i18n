@@ -17,3 +17,9 @@ inventor.CHIMPUM.form.button.create = Crear
 inventor.CHIMPUM.list.label.title = Título
 inventor.CHIMPUM.list.label.description = Descripción
 inventor.CHIMPUM.list.button.create = Crear
+
+
+inventor.CHIMPUM.form.error.finishDate = El periodo de tiempo debe ser de al menos una semana
+inventor.CHIMPUM.form.error.startDate = El periodo de tiempo debe empezar al menos un mes después de su creación
+inventor.CHIMPUM.form.error.negative-budget = La cantidad debe ser positiva
+inventor.CHIMPUM.form.error.negative-currency = La moneda es incorrecta

@@ -1,25 +1,0 @@
-1653833056866	geckodriver	INFO	Listening on 127.0.0.1:5233
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\david\\AppData\\Local\\Temp\\rust_mozprofilebPzEtk\\search.json.mozlz4", (void 0)))
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8081"
-console.warn: LoginRecipes: "getRecipes: falling back to aJ asvyanSccrhironous message for:" pt error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-"http://localhost:8081"
-console.waJran: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8081"
-vaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8081"
-console.warn: LoginRecipes: "getJRaevcaiSpcersi:p tf aelrlrionrg: resource://gre/modules/LoginManagerP abraecnkt .tjos ma,  slyinnceh r1o3n6o:u sT ympeeEssrargor: eg RfeocripeMa:nager is null
-" "http://localhost:8081"
-console.warn: LoginRecipes: "getRecipes: falliJnag back tov aaS csryinpcth reonous message for:" "http://localhost:8081"
-rror: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8081"
-JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecJavaScriippets :e rfraorll:i nresgo ubraccek: /to/ gar e/modules/LoginManagerPasynchronrous message enfto.rj:sm, lin"e  "1http://loca3l6h:o sTty:p8e0E8r1r"or
-: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipesJ: falling abvaacSkc rto a synipt error: resource://gre/mocdules/LoghirnoManagenrParenot.jsums,  mleisnsea g1e3 6f:o rT:y"p e"Ehrtrtopr::/ /glRoeccailpheoMsatn:a8g0e8r1 "is
- null
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message Jfaovra:S"c r"ihpttt pe:r/r/olro:c arlehsoosutr:c8e0:8/1/"gr
-e/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8081"
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8081"
-JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null

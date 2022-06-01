@@ -1,18 +1,0 @@
-1653841033240	geckodriver	INFO	Listening on 127.0.0.1:13199
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\david\\AppData\\Local\\Temp\\rust_mozprofile763zl7\\search.json.mozlz4", (void 0)))
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8081"
-console.warn: LoginRecipes: "getRecipes: falling back to aJavaS csryinpcth reornroous message for:" "http://localrh:o srte:s8o0u8r1c"e:
-//gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: JLaovgaiSncRreicpitp eesr:r o"rg:e trReescoiuprecse:: /f/aglrlei/nmgo dbualceks /tLoo gai nsMyanncahgreornPoaus messagre for:" "http://localhost:8081"
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8081"
-ent.jsm, line 136: TypeError: gRecipeManager is null
-JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "geJtRecavaSicpreisp:t  fearlrloirn:g  rbeascoku rtcoe a: /s/ygnrceh/rmoondouulse sm/eLsosgaigneM afnoargerP:a"r e"nhtt.tjps:m/,/ lloicnael h1o3s6t:: 8T0y8p1e"Er
-ror: gRecipeManager is null
-console.warn: LoginRecipes: "getRecJavaSicrpiepst:  efrarlolri:n gr ebsaocukr cteo: //gre/modules/Lao syngchronous message for:" "http://localhost:8081"
-inManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipes:Java Sfcrialling pbta cekr to a rsor: yrnechronousso umrecssagee: for:" /"/hgtrte/modpu://locallehs/Logoisnt:8081"Ma
-nagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipJaes: falling back to a synchronvous meaScrissagep tf or:" "http://locaelrhost:8081"ror: res
-ource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-[Parent 10376, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167

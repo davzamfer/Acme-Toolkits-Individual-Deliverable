@@ -1,3 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-"2022-05-29 15:55:38.071","acme.testing.inventor.toolkit.InventorToolkitPublishTest","positive",16906,""[1] recordIndex=0, title=AAAAAAA, code=XDD-192-F, description=a, assemblyNotes=assembly with caution, link=null, price=true"","OK"
-"2022-05-29 15:55:46.725","acme.testing.inventor.toolkit.InventorToolkitPublishTest","negative",7828,""[1] recordIndex=0, title=AAAAAAA, code=XDD-192-F, description=a, assemblyNotes=assembly with caution, link=null, price=true"","Cannot find 'By.xpath: //a[@class='btn btn-dark' and normalize-space()='Create new toolkit']'"

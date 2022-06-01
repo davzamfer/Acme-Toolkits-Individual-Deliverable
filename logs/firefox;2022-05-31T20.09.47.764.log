@@ -1,20 +1,0 @@
-1654020469952	geckodriver	INFO	Listening on 127.0.0.1:49146
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\david\\AppData\\Local\\Temp\\rust_mozprofileuhlmPT\\search.json.mozlz4", (void 0)))
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8081"
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" JavaScr"ihpttt pe:r/r/or: resource://gre/modules/LoginManagerPalroent.jsmc, line 136: TypeError: aglRheocsitp:e8M0a8n1a"ge
-r is null
-console.warn: LoginRecipes: "getRecipes: falling back to a JsayvnacShcrroinpotu se rmreosrs:a gree sfoour:r"c e":h/t/tgpr://localhost:8081"
-e/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipesJavaScri:p tf aelrlrior: resource://gre/modules/LoginManagerParent.jnsgm ,b alcikn e t136:o  Tay pseyEnrcrhorro:n ogReucsi pmeeMsasnaaggee rf oirs: "n "uhltltp
-://localhost:8081"
-console.warn: LoginRecipes: "getRecipes: falling back JavaScript errotro:  ar essyonucrhcreo:n/o/ugsr em/emsosdauglee sf/oLroginMana:g"e rParent.js"mh,t tlpi:n/e 136: TypeErr/olro:c aglRheocsitp:e8M0a8n1ager is null
-"
-console.warn: LoginRecipes: "getRecipeJsa:v afSaclrliipng back to a syntc herrornooru:s  rmeessosuargcee :f/o/rg:r"e/modules/LoginManagerParent.jsm, line 136: TypeError: gRecip e"Mhatntapg:e/r/ is null
-localhost:8081"
-console.warn: LoginRecipes: "getRecipes: fJavaScriapltl ienrg back tro a soyrn:c hrreosnoouursc emessage for:" "http://:l/o/cgarleh/omsotd:u8l0e8s1/"Lo
-ginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-console.warn: LoginRecipes: "getRecipes: falliJnag back vtaoS cripat  synchronouesr rmor: ersesagesour for:" "http://localhocset::/80/gre/mod8u1l"e
-s/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-
-###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DestroyBrowsingContextGroup) Channel closing: too late to send/recv, messages will be lost
-

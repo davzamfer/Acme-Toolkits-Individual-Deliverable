@@ -17,3 +17,8 @@ inventor.CHIMPUM.form.button.create = Create
 inventor.CHIMPUM.list.label.title = Title
 inventor.CHIMPUM.list.label.description = Description
 inventor.CHIMPUM.list.button.create = Create
+
+inventor.CHIMPUM.form.error.finishDate = The period of time must be at least one week long
+inventor.CHIMPUM.form.error.startDate = The period of time must start at least one month after the patronage is created
+inventor.CHIMPUM.form.error.negative-budget = The amount must be positive
+inventor.CHIMPUM.form.error.negative-currency = The currency is incorrect

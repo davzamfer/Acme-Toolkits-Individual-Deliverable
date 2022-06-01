@@ -1,4 +1,0 @@
-2022-05-31 19:54:25.321 INFO  [acme.Launcher@main] Starting Launcher using Java 1.8.0_281 on DESKTOP-UDQDLDQ with PID 1184 (started by david in C:\Workspace-22.0\Projects\Acme-Toolkits-Individual-Deliverable) 
-2022-05-31 19:54:25.323 DEBUG [acme.Launcher@main] Running with Spring Boot v2.4.2, Spring v5.3.3 
-2022-05-31 19:54:25.324 INFO  [acme.Launcher@main] The following profiles are active: testing 
-2022-05-31 19:54:31.206 DEBUG [org.apache.jasper.servlet.JasperInitializer@main] Initializing Jasper for context [application] 

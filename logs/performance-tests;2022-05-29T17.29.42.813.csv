@@ -1,5 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-"2022-05-29 17:17:59.018","acme.testing.inventor.CHIMPUM.InventorCHIMPUMListTest","positive",11200,""[1] recordIndex=0, title=Chimpun1, description=A complete chimpum"","OK"
-"2022-05-29 17:18:07.552","acme.testing.inventor.CHIMPUM.InventorCHIMPUMListTest","positive",8034,""[2] recordIndex=1, title=Chimpun2, description=a chimpum"","OK"
-"2022-05-29 17:18:14.76","acme.testing.inventor.CHIMPUM.InventorCHIMPUMListTest","negative",6599,""[1] recordIndex=0, title=Awesome Tool Kit, code=XDD-191-A, description=a, assemblyNotes=assembly with caution, link=null, price=true"","OK"
-"2022-05-29 17:18:22.182","acme.testing.inventor.CHIMPUM.InventorCHIMPUMListTest","negative",6918,""[2] recordIndex=1, title=Tech Tool Kit, code=LOL-909-B, description=A complete tech tool kit, assemblyNotes=nothing important, link=https://www.tool.com, price=false"","OK"

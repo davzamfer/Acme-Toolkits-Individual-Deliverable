@@ -1,5 +1,8 @@
 package acme.features.inventor.CHIMPUM;
 
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -89,6 +92,47 @@ public class InventorCHIMPUMUpdateService implements AbstractUpdateService<Inven
 				&& !spamDetector.containsSpam(strongSpamTerms.split(","), strongSpamThreshold, entity.getDescription()),
 				"description", "inventor.toolkit.form.error.spam");
 		}
+		
+		if(!errors.hasErrors("startDate")) {
+			Calendar calendar;
+			
+			calendar = new GregorianCalendar();
+			calendar.add(Calendar.MONTH, 1);
+			calendar.add(Calendar.DAY_OF_MONTH, -1);
+			
+			errors.state(request, entity.getStartDate().after(calendar.getTime()), "startDate", "inventor.CHIMPUM.form.error.startDate");
+		}
+		
+		if(!errors.hasErrors("finishDate")) {
+			Calendar calendar;
+			
+			boolean errorState = true;
+			
+			if (entity.getStartDate() != null) {		
+				calendar = new GregorianCalendar();
+				calendar.setTime(entity.getStartDate());
+				calendar.add(Calendar.WEEK_OF_MONTH, 1);
+				calendar.add(Calendar.DAY_OF_MONTH, -1);
+				errorState = entity.getFinishDate().after(calendar.getTime());
+			}
+			
+			errors.state(request, errorState, "finishDate", "inventor.CHIMPUM.form.error.finishDate");
+		}
+		
+		if (!errors.hasErrors("budget")) {
+			final String currency = entity.getBudget().getCurrency();
+			final String currencyAvaliable = this.repository.acceptedCurrencies();
+			boolean acceptedCurrency = false;
+			
+			for(final String cur: currencyAvaliable.split(",")) {
+				acceptedCurrency = cur.trim().equalsIgnoreCase(currency);
+				if(acceptedCurrency)
+					break;
+			}
+			errors.state(request, entity.getBudget().getAmount() > 0 , "budget", "inventor.CHIMPUM.form.error.negative-budget");
+			errors.state(request,acceptedCurrency, "budget", "inventor.CHIMPUM.form.error.negative-currency");
+		}
+
 	}
 
 	@Override
