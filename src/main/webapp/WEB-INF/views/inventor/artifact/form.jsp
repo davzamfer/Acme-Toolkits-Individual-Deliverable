@@ -11,6 +11,16 @@
 	<acme:input-money code="inventor.artifact.form.label.retailprice" path="retailPrice"/>
 	<acme:input-textbox code="inventor.artifact.form.label.link" path="link"/>
 	
+	<jstl:choose>	 
+		<jstl:when test="${type=='TOOL'}">
+			<acme:input-select code="inventor.artifact.form.label.select.CHIMPUM" path="CHIMPUM">
+				<acme:input-option code="-" value="none"/>
+				<jstl:forEach items="${chimpums}" var="optionCHIMPUM">
+					<acme:input-option code="${optionCHIMPUM.title}" value="${optionCHIMPUM.id}" selected="${CHIMPUMId.equals(optionCHIMPUM.id)}"/>
+				</jstl:forEach>
+			</acme:input-select>
+		</jstl:when>
+	</jstl:choose>
 	
 	<jstl:choose>	 
 		<jstl:when test="${acme:anyOf(command, 'show, update, delete, publish') && published == false}">
@@ -27,5 +37,6 @@
 			<acme:input-textbox code="inventor.artifact.list.label.type" path="artifactType"/>
 		</jstl:when>
 	</jstl:choose>
+	
 </acme:form>
 

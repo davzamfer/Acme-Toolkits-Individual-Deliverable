@@ -2,11 +2,13 @@ package acme.features.inventor.artifact;
 
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import acme.entities.CHIMPUM.CHIMPUM;
 import acme.entities.artifacts.Artifact;
 import acme.entities.artifacts.ArtifactType;
 import acme.framework.components.models.Model;
@@ -58,6 +60,12 @@ public class InventorArtifactShowService implements AbstractShowService<Inventor
 		assert entity != null;
 		assert model != null;
 		
+		Collection<CHIMPUM> chimpums;
+		String artifactType;
+		
+		chimpums = this.repository.findAllCHIMPUMS();
+		artifactType = entity.getArtifactType().toString().toUpperCase();
+		
 		request.unbind(entity, model, "name", "code", "technology", "description", "retailPrice", "artifactType", "link");
 		List<String> types;
 		types = new ArrayList<String>();
@@ -66,6 +74,14 @@ public class InventorArtifactShowService implements AbstractShowService<Inventor
 		}
 		model.setAttribute("types", types);
 		model.setAttribute("published", entity.isPublished());
+		if(entity.getChimpum()!=null) {
+			model.setAttribute("CHIMPUMId", entity.getChimpum().getId());
+		}
+		else {
+			model.setAttribute("CHIMPUMId", null);
+		}
+		model.setAttribute("chimpums", chimpums);
+		model.setAttribute("type", artifactType);
 	}
 	
 }

@@ -3,6 +3,7 @@ package acme.features.inventor.artifact;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import acme.entities.CHIMPUM.CHIMPUM;
 import acme.entities.artifacts.Artifact;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Errors;
@@ -45,6 +46,23 @@ public class InventorArtifactUpdateService implements AbstractUpdateService<Inve
 		assert entity != null;
 		assert errors != null;
 
+		final CHIMPUM chimpum;
+		final String chimpumIdString;
+		final int chimpumId;
+		
+		if(request.getModel().hasAttribute("CHIMPUM")) {
+			chimpumIdString = (String) request.getModel().getAttribute("CHIMPUM");
+			if(!"none".equals(chimpumIdString)) {
+				chimpumId = Integer.parseInt(chimpumIdString);
+				chimpum = this.repository.findCHIMPUMById(chimpumId);
+				entity.setChimpum(chimpum);
+			}
+			else {
+				entity.setChimpum(null);
+			}
+		}
+
+		
 		request.bind(entity, errors, "name", "code", "technology" , "description" , "retailPrice", "artifactType", "link");
 		
 	}

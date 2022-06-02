@@ -1,8 +1,11 @@
 package acme.features.inventor.artifact;
 
+import java.util.Collection;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import acme.entities.CHIMPUM.CHIMPUM;
 import acme.entities.artifacts.Artifact;
 import acme.entities.artifacts.ArtifactType;
 import acme.framework.components.models.Model;
@@ -37,6 +40,19 @@ public class InventorArtifactCreateService implements AbstractCreateService<Inve
 		assert entity != null;
 		assert errors != null;
 
+		final CHIMPUM chimpum;
+		final String chimpumIdString;
+		final int chimpumId;
+		
+		if(request.getModel().hasAttribute("CHIMPUM")) {
+			chimpumIdString = (String) request.getModel().getAttribute("CHIMPUM");
+			if(!"none".equals(chimpumIdString)) {
+				chimpumId = Integer.parseInt(chimpumIdString);
+				chimpum = this.repository.findCHIMPUMById(chimpumId);
+				entity.setChimpum(chimpum);
+			}
+		}
+		
 		String type;
 		type = request.getModel().getString("type").toUpperCase();
 		entity.setArtifactType(ArtifactType.valueOf(type));
@@ -51,13 +67,16 @@ public class InventorArtifactCreateService implements AbstractCreateService<Inve
 		assert model != null;
 		
 		String type;
+		Collection<CHIMPUM> chimpums;
 		
+		chimpums = this.repository.findAllCHIMPUMS();
 		type = request.getModel().getString("type").toUpperCase();
 		entity.setArtifactType(ArtifactType.valueOf(type));
 		model.setAttribute("type", type);
+		model.setAttribute("chimpums", chimpums);
 		request.unbind(entity, model,"name", "code", "technology" , "description" , "retailPrice", "published", "link");
 	
-		
+	
 	}
 
 	@Override
