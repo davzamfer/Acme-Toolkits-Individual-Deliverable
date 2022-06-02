@@ -35,7 +35,7 @@ public class InventorCHIMPUMCreateTest extends TestHarness {
 		
 		super.clickOnMenu("Inventor", "List of CHIMPUMS");
 		super.checkListingExists();
-		super.sortListing(0, "desc");
+		super.sortListing(0, "asc");
 		super.checkColumnHasValue(recordIndex, 0, title);
 		super.checkColumnHasValue(recordIndex, 1, description);	
 		

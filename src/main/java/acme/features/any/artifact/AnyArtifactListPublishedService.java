@@ -25,6 +25,13 @@ public class AnyArtifactListPublishedService implements AbstractListService<Any,
 	public boolean authorise(final Request<Artifact> request) {
 		assert request != null;
 		
+	/*	if(request.getModel().hasAttribute("chimpumId")) {
+			
+			final Integer activeId = request.getPrincipal().getActiveRoleId();		
+			final Collection<Integer> existingInventors = this.repository.findAllInventorId();		
+			return  existingInventors.stream().anyMatch(x -> Objects.equals(x, activeId));
+		}*/
+		
 		return true;
 	}
 

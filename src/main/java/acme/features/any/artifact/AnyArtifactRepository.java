@@ -32,4 +32,7 @@ public interface AnyArtifactRepository extends AbstractRepository {
 
 	@Query("select a from Artifact a where a.artifactType = 0 and a.published=true and a.chimpum.id= :id")
 	Collection<Artifact> findAllToolsPublishedByCHIMPUMId(int id);
+
+	@Query("SELECT inventor.id FROM Inventor inventor")
+	Collection<Integer> findAllInventorId();
 }
