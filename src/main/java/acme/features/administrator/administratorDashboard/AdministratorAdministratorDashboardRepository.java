@@ -61,25 +61,25 @@ public interface AdministratorAdministratorDashboardRepository extends AbstractR
 	@Query("select p.status, max(p.budget.amount) from Patronage p group by p.status")
 	List<String> maximumBudgetOfPatronagesGroupedByStatus();
 	
-	// Methods for CHIMPUM ---------------------------------------------
+	// Methods for Troqua ---------------------------------------------
 
 	@Query("select count(a) from Artifact a")
 	int numberOfArtefacts();
 	
-	@Query("select count(a) from Artifact a where a.chimpum != null")
-	int numberOfArtefactWithCHIMPUM();
+	@Query("select count(a) from Artifact a where a.troqua != null")
+	int numberOfArtefactWithTroqua();
 
-	@Query("select c.budget.currency, avg(c.budget.amount) from CHIMPUM c group by c.budget.currency")
-	List<String> averageBudgetCHIMPUMGroupedByCurrency();
+	@Query("select c.quota.currency, avg(c.quota.amount) from Troqua c group by c.quota.currency")
+	List<String> averageQuotaTroquaGroupedByCurrency();
 
-	@Query("select c.budget.currency, stddev(c.budget.amount) from CHIMPUM c group by c.budget.currency")
-	List<String> deviationBudgetCHIMPUMGroupedByCurrency();
+	@Query("select c.quota.currency, stddev(c.quota.amount) from Troqua c group by c.quota.currency")
+	List<String> deviationQuotaTroquaGroupedByCurrency();
 
-	@Query("select c.budget.currency, min(c.budget.amount) from CHIMPUM c group by c.budget.currency")
-	List<String> minimumBudgetCHIMPUMGroupedByCurrency();
+	@Query("select c.quota.currency, min(c.quota.amount) from Troqua c group by c.quota.currency")
+	List<String> minimumQuotaTroquaGroupedByCurrency();
 
-	@Query("select c.budget.currency, max(c.budget.amount) from CHIMPUM c group by c.budget.currency")
-	List<String> maximumBudgetCHIMPUMGroupedByCurrency();
+	@Query("select c.quota.currency, max(c.quota.amount) from Troqua c group by c.quota.currency")
+	List<String> maximumQuotaTroquaGroupedByCurrency();
 	
 	
 	// Others -------------------------------

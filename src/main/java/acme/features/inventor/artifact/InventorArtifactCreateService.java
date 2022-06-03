@@ -5,9 +5,9 @@ import java.util.Collection;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.entities.CHIMPUM.CHIMPUM;
 import acme.entities.artifacts.Artifact;
 import acme.entities.artifacts.ArtifactType;
+import acme.entities.troqua.Troqua;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Errors;
 import acme.framework.controllers.Request;
@@ -40,16 +40,16 @@ public class InventorArtifactCreateService implements AbstractCreateService<Inve
 		assert entity != null;
 		assert errors != null;
 
-		final CHIMPUM chimpum;
-		final String chimpumIdString;
-		final int chimpumId;
+		final Troqua troqua;
+		final String troquaIdString;
+		final int troquaId;
 		
-		if(request.getModel().hasAttribute("CHIMPUM")) {
-			chimpumIdString = (String) request.getModel().getAttribute("CHIMPUM");
-			if(!"none".equals(chimpumIdString)) {
-				chimpumId = Integer.parseInt(chimpumIdString);
-				chimpum = this.repository.findCHIMPUMById(chimpumId);
-				entity.setChimpum(chimpum);
+		if(request.getModel().hasAttribute("troqua")) {
+			troquaIdString = (String) request.getModel().getAttribute("troqua");
+			if(!"none".equals(troquaIdString)) {
+				troquaId = Integer.parseInt(troquaIdString);
+				troqua = this.repository.findTroquaById(troquaId);
+				entity.setTroqua(troqua);
 			}
 		}
 		
@@ -67,13 +67,13 @@ public class InventorArtifactCreateService implements AbstractCreateService<Inve
 		assert model != null;
 		
 		String type;
-		Collection<CHIMPUM> chimpums;
+		final Collection<Troqua> troquas;
 		
-		chimpums = this.repository.findAllCHIMPUMS();
+		troquas = this.repository.findAllTroquas();
 		type = request.getModel().getString("type").toUpperCase();
 		entity.setArtifactType(ArtifactType.valueOf(type));
 		model.setAttribute("type", type);
-		model.setAttribute("chimpums", chimpums);
+		model.setAttribute("troquas", troquas);
 		request.unbind(entity, model,"name", "code", "technology" , "description" , "retailPrice", "published", "link");
 	
 	

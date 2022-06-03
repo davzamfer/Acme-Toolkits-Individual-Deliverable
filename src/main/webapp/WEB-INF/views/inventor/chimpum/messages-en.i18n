@@ -1,25 +1,25 @@
-inventor.CHIMPUM.message.CHIMPUM = CHIMPUM
+inventor.troqua.message.troqua = Troqua
 
-inventor.CHIMPUM.form.label.code = Code
-inventor.CHIMPUM.form.label.title = Title
-inventor.CHIMPUM.form.label.description = Description
-inventor.CHIMPUM.form.label.startDate = Start Date
-inventor.CHIMPUM.form.label.finishDate = Finish Date
-inventor.CHIMPUM.form.label.budget = Budget
-inventor.CHIMPUM.form.label.info = Link
-inventor.CHIMPUM.form.label.creationMoment = Creation Moment
+inventor.troqua.form.label.code = Code
+inventor.troqua.form.label.theme = Theme
+inventor.troqua.form.label.statement = Statement
+inventor.troqua.form.label.startDate = Start Date
+inventor.troqua.form.label.finishDate = Finish Date
+inventor.troqua.form.label.quota = Quota
+inventor.troqua.form.label.additionalInfo = Additional Info
+inventor.troqua.form.label.creationMoment = Creation Moment
 
-inventor.CHIMPUM.form.button.artifacts = See Artifacts
-inventor.CHIMPUM.form.button.update = Update
-inventor.CHIMPUM.form.button.delete = Delete
-inventor.CHIMPUM.form.button.create = Create
+inventor.troqua.form.button.artifacts = See Artifacts
+inventor.troqua.form.button.update = Update
+inventor.troqua.form.button.delete = Delete
+inventor.troqua.form.button.create = Create
 
-inventor.CHIMPUM.list.label.title = Title
-inventor.CHIMPUM.list.label.description = Description
-inventor.CHIMPUM.list.button.create = Create
+inventor.troqua.list.label.theme = Theme
+inventor.troqua.list.label.statement = Statement
+inventor.troqua.list.button.create = Create
 
-inventor.CHIMPUM.form.error.finishDate = The period of time must be at least one week long
-inventor.CHIMPUM.form.error.startDate = The period of time must start at least one month after the patronage is created
-inventor.CHIMPUM.form.error.negative-budget = The amount must be positive
-inventor.CHIMPUM.form.error.negative-currency = The currency is incorrect
-inventor.CHIMPUM.form.error.duplicated-pattern = The code introduced already exists
+inventor.troqua.form.error.finishDate = The period of time must be at least one week long
+inventor.troqua.form.error.startDate = The period of time must start at least one month after the patronage is created
+inventor.troqua.form.error.negative-quota = The amount must be positive
+inventor.troqua.form.error.negative-currency = The currency is incorrect
+inventor.troqua.form.error.duplicated-pattern = The code introduced already exists

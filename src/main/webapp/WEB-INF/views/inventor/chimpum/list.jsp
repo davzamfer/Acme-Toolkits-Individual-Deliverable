@@ -4,7 +4,7 @@
 <%@taglib prefix="acme" uri="urn:jsptagdir:/WEB-INF/tags"%>
 
 <acme:list>
-	<acme:list-column code="inventor.CHIMPUM.list.label.title" path="title"/>
-	<acme:list-column code="inventor.CHIMPUM.list.label.description" path="description"/>
+	<acme:list-column code="inventor.troqua.list.label.theme" path="theme"/>
+	<acme:list-column code="inventor.troqua.list.label.statement" path="statement"/>
 </acme:list>
-<acme:button code="inventor.CHIMPUM.list.button.create" action="/inventor/chimpum/create"/>
+<acme:button code="inventor.troqua.list.button.create" action="/inventor/troqua/create"/>

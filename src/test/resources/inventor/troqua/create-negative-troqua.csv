@@ -1,0 +1,17 @@
+recordIndex,title,description,pattern,start-date,finish-date,budget,link
+0,,A third chimpum,PRU-001,"2030/12/31 12:00","2031/12/31 15:00","EUR 25.00",https://www.prueba.com
+1,Chimpun5,,PRU-002,"2030/12/31 12:00","2031/12/31 15:00","EUR 25.00",https://www.prueba.com
+2,Chimpun6,A third chimpum,,"2030/12/31 12:00","2031/12/31 15:00","EUR 25.00",https://www.prueba.com
+3,Chimpun7,A third chimpum,PRU-003,,"2031/12/31 15:00","EUR 25.00",https://www.prueba.com
+4,Chimpun8,A third chimpum,PRU-004,"2030/12/31 12:00",,"EUR 25.00",https://www.prueba.com
+5,Chimpun9,A third chimpum,PRU-005,"2030/12/31 12:00","2031/12/31 15:00",,https://www.prueba.com
+6,Chimpun10,A third chimpum,PRU-006,"2030/12/31 12:00","2031/12/31 15:00","EUR 25.00",prueba
+7,sexy,A third chimpum,PRU-007,"2030/12/31 12:00","2031/12/31 15:00","EUR 25.00",https://www.prueba.com
+8,Chimpun10,sexy,PRU-008,"2030/12/31 12:00","2031/12/31 15:00","EUR 25.00",https://www.prueba.com
+9,sex,A third chimpum,PRU-009,"2030/12/31 12:00","2031/12/31 15:00","EUR 25.00",https://www.prueba.com
+10,Chimpun10,sex,PRU-010,"2030/12/31 12:00","2031/12/31 15:00","EUR 25.00",https://www.prueba.com
+11,Chimpun10,A third chimpum,PRU-011,"2021/12/31 12:00","2031/12/31 15:00","EUR 25.00",https://www.prueba.com
+12,Chimpun10,A third chimpum,PRU-012,"2031/12/31 12:00","2030/12/31 15:00","EUR 25.00",https://www.prueba.com
+13,Chimpun10,A third chimpum,PRU-013,"2030/12/31 12:00","2031/12/31 15:00","BRU 25.00",https://www.prueba.com
+14,Chimpun10,A third chimpum,PRU-014,"2030/12/31 12:00","2031/12/31 15:00","EUR -25.00",https://www.prueba.com
+15,Chimpun10,A third chimpum,ABC-123,"2030/12/31 12:00","2031/12/31 15:00","EUR -25.00",https://www.prueba.com

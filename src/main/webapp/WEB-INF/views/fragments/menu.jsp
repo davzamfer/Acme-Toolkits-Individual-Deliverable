@@ -88,7 +88,7 @@
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.inventor.toolkits-link" action="/inventor/toolkit/list"/>
 			<acme:menu-separator/>
-			<acme:menu-suboption code="master.menu.inventor.CHIMPUM-link" action="/inventor/chimpum/list"/>
+			<acme:menu-suboption code="master.menu.inventor.troquas-link" action="/inventor/troqua/list"/>
     </acme:menu-option>
     
 	</acme:menu-left>

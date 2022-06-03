@@ -8,9 +8,9 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.entities.CHIMPUM.CHIMPUM;
 import acme.entities.artifacts.Artifact;
 import acme.entities.artifacts.ArtifactType;
+import acme.entities.troqua.Troqua;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Request;
 import acme.framework.services.AbstractShowService;
@@ -60,10 +60,10 @@ public class InventorArtifactShowService implements AbstractShowService<Inventor
 		assert entity != null;
 		assert model != null;
 		
-		Collection<CHIMPUM> chimpums;
+		Collection<Troqua> troquas;
 		String artifactType;
 		
-		chimpums = this.repository.findAllCHIMPUMS();
+		troquas = this.repository.findAllTroquas();
 		artifactType = entity.getArtifactType().toString().toUpperCase();
 		
 		request.unbind(entity, model, "name", "code", "technology", "description", "retailPrice", "artifactType", "link");
@@ -74,13 +74,13 @@ public class InventorArtifactShowService implements AbstractShowService<Inventor
 		}
 		model.setAttribute("types", types);
 		model.setAttribute("published", entity.isPublished());
-		if(entity.getChimpum()!=null) {
-			model.setAttribute("CHIMPUMId", entity.getChimpum().getId());
+		if(entity.getTroqua()!=null) {
+			model.setAttribute("troquaId", entity.getTroqua().getId());
 		}
 		else {
-			model.setAttribute("CHIMPUMId", null);
+			model.setAttribute("troquaId", null);
 		}
-		model.setAttribute("chimpums", chimpums);
+		model.setAttribute("troquas", troquas);
 		model.setAttribute("type", artifactType);
 	}
 	

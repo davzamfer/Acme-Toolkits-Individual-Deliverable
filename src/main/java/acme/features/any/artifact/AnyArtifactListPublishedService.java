@@ -45,10 +45,10 @@ public class AnyArtifactListPublishedService implements AbstractListService<Any,
 		if(request.getModel().hasAttribute("chimpumId")) {
 			final Integer chimpumId = request.getModel().getInteger("chimpumId");
 			if(type.equals("component")) {
-				result = this.repository.findAllComponentsPublishedByCHIMPUMId(chimpumId);
+				result = this.repository.findAllComponentsPublishedByTroquaId(chimpumId);
 				
 			}else {
-				result = this.repository.findAllToolsPublishedByCHIMPUMId(chimpumId);
+				result = this.repository.findAllToolsPublishedByTroquaId(chimpumId);
 			}
 		}
 		

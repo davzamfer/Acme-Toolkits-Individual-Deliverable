@@ -58,11 +58,11 @@ public class AdministratorAdministratorDashboardShowService implements AbstractS
 		final Map<Status,Double>	minimumBudgetOfPatronagesGroupedByStatus;
 		final Map<Status,Double>	maximumBudgetOfPatronagesGroupedByStatus;
 		
-		float ratioOfArtefactWithCHIMPUM;
-		Map<String, Double> averageBudgetCHIMPUMGroupedByCurrency;
-		Map<String, Double> deviationBudgetCHIMPUMGroupedByCurrency;
-		Map<String, Double> minimumBudgetCHIMPUMGroupedByCurrency;
-		Map<String, Double> maximumBudgetCHIMPUMGroupedByCurrency;
+		float ratioOfArtefactWithTroqua;
+		Map<String, Double> averageQuotaTroquaGroupedByCurrency;
+		Map<String, Double> deviationQuotaTroquaGroupedByCurrency;
+		Map<String, Double> minimumQuotaTroquaGroupedByCurrency;
+		Map<String, Double> maximumQuotaTroquaGroupedByCurrency;
 
 
 		totalNumberOfComponents = this.repository.totalNumberOfComponents();
@@ -103,24 +103,24 @@ public class AdministratorAdministratorDashboardShowService implements AbstractS
 		maximumBudgetOfPatronagesGroupedByStatus = this.patronagesMethodsMap(
 			this.repository.maximumBudgetOfPatronagesGroupedByStatus());
 		
-		//CHIMPUM methods
+		//Troqua methods
 
 		final int numberOfArtifacts= this.repository.numberOfArtefacts();
 		if(numberOfArtifacts!=0) {
-			ratioOfArtefactWithCHIMPUM = (float) this.repository.numberOfArtefactWithCHIMPUM()/numberOfArtifacts;
+			ratioOfArtefactWithTroqua = (float) this.repository.numberOfArtefactWithTroqua()/numberOfArtifacts;
 		}
 		else {
 
-			ratioOfArtefactWithCHIMPUM = 0;
+			ratioOfArtefactWithTroqua = 0;
 		}
-		averageBudgetCHIMPUMGroupedByCurrency = this.toolsMethodsMap(
-			this.repository.averageBudgetCHIMPUMGroupedByCurrency());
-		deviationBudgetCHIMPUMGroupedByCurrency = this.toolsMethodsMap(
-			this.repository.deviationBudgetCHIMPUMGroupedByCurrency());
-		minimumBudgetCHIMPUMGroupedByCurrency = this.toolsMethodsMap(
-			this.repository.minimumBudgetCHIMPUMGroupedByCurrency());
-		maximumBudgetCHIMPUMGroupedByCurrency = this.toolsMethodsMap(
-			this.repository.maximumBudgetCHIMPUMGroupedByCurrency());
+		averageQuotaTroquaGroupedByCurrency = this.toolsMethodsMap(
+			this.repository.averageQuotaTroquaGroupedByCurrency());
+		deviationQuotaTroquaGroupedByCurrency = this.toolsMethodsMap(
+			this.repository.deviationQuotaTroquaGroupedByCurrency());
+		minimumQuotaTroquaGroupedByCurrency = this.toolsMethodsMap(
+			this.repository.minimumQuotaTroquaGroupedByCurrency());
+		maximumQuotaTroquaGroupedByCurrency = this.toolsMethodsMap(
+			this.repository.maximumQuotaTroquaGroupedByCurrency());
 		
 		
 		result = new AdministratorDashboard();
@@ -144,11 +144,11 @@ public class AdministratorAdministratorDashboardShowService implements AbstractS
 		result.setMinimumBudgetOfPatronagesGroupedByStatus(minimumBudgetOfPatronagesGroupedByStatus);
 		result.setMaximumBudgetOfPatronagesGroupedByStatus(maximumBudgetOfPatronagesGroupedByStatus);
 		
-		result.setRatioOfArtefactWithCHIMPUM(ratioOfArtefactWithCHIMPUM);
-		result.setAverageBudgetCHIMPUMGroupedByCurrency(averageBudgetCHIMPUMGroupedByCurrency);
-		result.setDeviationBudgetCHIMPUMGroupedByCurrency(deviationBudgetCHIMPUMGroupedByCurrency);
-		result.setMinimumBudgetCHIMPUMGroupedByCurrency(minimumBudgetCHIMPUMGroupedByCurrency);
-		result.setMaximumBudgetCHIMPUMGroupedByCurrency(maximumBudgetCHIMPUMGroupedByCurrency);
+		result.setRatioOfArtefactWithTroqua(ratioOfArtefactWithTroqua);
+		result.setAverageQuotaTroquaGroupedByCurrency(averageQuotaTroquaGroupedByCurrency);
+		result.setDeviationQuotaTroquaGroupedByCurrency(deviationQuotaTroquaGroupedByCurrency);
+		result.setMinimumQuotaTroquaGroupedByCurrency(minimumQuotaTroquaGroupedByCurrency);
+		result.setMaximumQuotaTroquaGroupedByCurrency(maximumQuotaTroquaGroupedByCurrency);
 		
 		return result;
 	}
@@ -279,11 +279,11 @@ public class AdministratorAdministratorDashboardShowService implements AbstractS
 			"minimumBudgetOfPatronagesGroupedByStatus",
 			"maximumBudgetOfPatronagesGroupedByStatus",
 		
-		"ratioOfArtefactWithCHIMPUM",
-		"averageBudgetCHIMPUMGroupedByCurrency",
-		"deviationBudgetCHIMPUMGroupedByCurrency",
-		"minimumBudgetCHIMPUMGroupedByCurrency",
-		"maximumBudgetCHIMPUMGroupedByCurrency");
+		"ratioOfArtefactWithTroqua",
+		"averageQuotaTroquaGroupedByCurrency",
+		"deviationQuotaTroquaGroupedByCurrency",
+		"minimumQuotaTroquaGroupedByCurrency",
+		"maximumQuotaTroquaGroupedByCurrency");
 		
 		
 		model.setAttribute("statusList", Status.values());

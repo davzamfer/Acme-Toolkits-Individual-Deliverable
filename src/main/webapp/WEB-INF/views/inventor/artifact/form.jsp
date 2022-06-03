@@ -13,10 +13,10 @@
 	
 	<jstl:choose>	 
 		<jstl:when test="${type=='TOOL'}">
-			<acme:input-select code="inventor.artifact.form.label.select.CHIMPUM" path="CHIMPUM">
+			<acme:input-select code="inventor.artifact.form.label.select.troqua" path="troqua">
 				<acme:input-option code="-" value="none"/>
-				<jstl:forEach items="${chimpums}" var="optionCHIMPUM">
-					<acme:input-option code="${optionCHIMPUM.title}" value="${optionCHIMPUM.id}" selected="${CHIMPUMId.equals(optionCHIMPUM.id)}"/>
+				<jstl:forEach items="${troquas}" var="optionTroqua">
+					<acme:input-option code="${optionTroqua.title}" value="${optionTroqua.id}" selected="${troquaId.equals(optionTroqua.id)}"/>
 				</jstl:forEach>
 			</acme:input-select>
 		</jstl:when>

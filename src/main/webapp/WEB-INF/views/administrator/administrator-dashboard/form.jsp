@@ -4,9 +4,9 @@
 <%@taglib prefix="jstl" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@taglib prefix="acme" uri="urn:jsptagdir:/WEB-INF/tags"%>
 
-<!-- Showing CHIMPUM data -->
+<!-- Showing Troqua data -->
 
-<h1><acme:message code="administrator.administrator-dashboard.form.title.CHIMPUM"/></h1>
+<h1><acme:message code="administrator.administrator-dashboard.form.title.troqua"/></h1>
 
 <table class="table table-sm">
 <caption><acme:message code="administrator.administrator-dashboard.form.title.ratio"/></caption>
@@ -15,7 +15,7 @@
 			<acme:message code="administrator.administrator-dashboard.form.title.ratio"/>
 		</th>
 		<td>
-			<jstl:set var="value" value="${ratioOfArtefactWithCHIMPUM}"/>
+			<jstl:set var="value" value="${ratioOfArtefactWithTroqua}"/>
 			<acme:print value="${value}"/>
 		</td>
 	</tr>
@@ -30,7 +30,7 @@
 				<acme:print value="${currency}"/>
 			</th>
 			<td>
-				<jstl:set var="value" value="${averageBudgetCHIMPUMGroupedByCurrency.getOrDefault(currency,0.0)}"/>
+				<jstl:set var="value" value="${averageQuotaTroquaGroupedByCurrency.getOrDefault(currency,0.0)}"/>
 				<acme:print value="${value}"/>
 			</td>
 		</tr>
@@ -46,7 +46,7 @@
 				<acme:print value="${currency}"/>
 			</th>
 			<td>
-				<jstl:set var="value" value="${deviationBudgetCHIMPUMGroupedByCurrency.getOrDefault(currency,0.0)}"/>
+				<jstl:set var="value" value="${deviationQuotaTroquaGroupedByCurrency.getOrDefault(currency,0.0)}"/>
 				<acme:print value="${value}"/>
 			</td>
 		</tr>
@@ -62,7 +62,7 @@
 				<acme:print value="${currency}"/>
 			</th>
 			<td>
-				<jstl:set var="value" value="${minimumBudgetCHIMPUMGroupedByCurrency.getOrDefault(currency,0.0)}"/>
+				<jstl:set var="value" value="${minimumQuotaTroquaGroupedByCurrency.getOrDefault(currency,0.0)}"/>
 				<acme:print value="${value}"/>
 			</td>
 		</tr>
@@ -78,7 +78,7 @@
 				<acme:print value="${currency}"/>
 			</th>
 			<td>
-				<jstl:set var="value" value="${maximumBudgetCHIMPUMGroupedByCurrency.getOrDefault(currency,0.0)}"/>
+				<jstl:set var="value" value="${maximumQuotaTroquaGroupedByCurrency.getOrDefault(currency,0.0)}"/>
 				<acme:print value="${value}"/>
 			</td>
 		</tr>
